@@ -1,17 +1,17 @@
 ---
 layout:     post
 type:       post
-title:      "How to upgrade Strimzi Operator"
+title:      "How to upgrade Strimzi Operator using the CLI"
 date:       2020-09-25 15:00
 published:  true
 status:     publish
-categories: []
-#- how-to
-#- kubernetes
-#- openshift
-#- operators
-#- strimzi
-#- red hat amq streams
+categories:
+- how-to
+- kubernetes
+- openshift
+- operators
+- strimzi
+- red hat amq streams
 tags: []
 author:     rmarting
 comments:   true
@@ -71,7 +71,7 @@ of an Operator package to subscribe to, and whether to perform updates automatic
 If set to automatic, the Subscription ensures OLM manages and upgrades the Operator to
 ensure that the latest version is always running in the cluster.
 
-This a ```Subscription``` definition to install Strimzi Operator:
+This is a ```Subscription``` definition to install Strimzi Operator:
 
 ```yaml
 ---
@@ -115,9 +115,11 @@ The channel, such as alpha, beta, or stable, helps determine which Operator stre
 CatalogSourceThe channel. Values: ```alpha```, ```beta```, or ```stable```.
 * **installPlanApproval**: Identifies the approval mode of the ```installPlan```. If you defined
 as ```Automatic``` then the upgrade of the operator will be done as soon a new version is available.
-For this article ```Manual``` mode is used to follow the upgrade process.
-* **startingCSV**: Identifies the initial version to install of the operator. For this article
-the values used are not the latest ones.
+* **startingCSV**: Identifies the initial version to install of the operator.
+
+This article is focused to show how to update the Strimzi Operator manually, so this is the reasson
+that we will use ```Manual``` installation plan approval mode. It could be a good practice to declare
+your subscriptions manually to control in which moment update your operators.
 
 This command will install the subscription to deploy the operator:
 
