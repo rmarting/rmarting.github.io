@@ -5,13 +5,13 @@ title:      "How to upgrade Strimzi Operator"
 date:       2020-09-25 15:00
 published:  true
 status:     publish
-categories: 
-- how-to
-- kubernetes
-- openshift
-- operators
-- strimzi
-- red hat amq streams
+categories: []
+#- how-to
+#- kubernetes
+#- openshift
+#- operators
+#- strimzi
+#- red hat amq streams
 tags: []
 author:     rmarting
 comments:   true
