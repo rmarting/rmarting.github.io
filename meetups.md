@@ -7,6 +7,7 @@ permalink: /meetups/
 From time to time I give presentations in meetups, conferences or user groups
 from different topics. Here you could access to the published presentations:
 
+* [Google Cloud Developer Community Madrid :: Madrid :: Observability, Service Mesh with istio and Kiali](https://www.meetup.com/es/gcdcmadrid/events/261668288/)
 * [Opensouthcod 2019 :: Malaga :: Managing your Apache Kafka cluster by Strimzi](https://www.opensouthcode.org/conferences/opensouthcode2019/program/proposals/232)
 * [OpenShift Spain Meetup :: Madrid :: Strimzi - Where Apache Kafka meets OpenShift](https://www2.slideshare.net/jromanmartin/strimzi-where-apache-kafka-meets-openshift-openshift-spain-meetup)
 * [Spring Boot User Group :: Madrid :: Gestionando microservicios con Istio en OpenShift](https://www.meetup.com/es/madrid-spring-user-group/events/258322835/)
