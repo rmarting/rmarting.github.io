@@ -2,7 +2,7 @@
 layout:     post
 title:      "Welcome to my Blog!"
 date:       2020-09-25 09:00:00 +0200
-categories: jekyll update
+categories: news
 ---
 
 Welcome to my Blog!
