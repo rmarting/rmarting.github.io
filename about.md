@@ -1,18 +1,24 @@
 ---
-layout: page
-title: About
+layout:    page
+title:     About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi :open_hands: !!! Nice to meet you :blush: !!!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I’m Roman Martin, an IT professional with almost tweenty years of experience in the software development industry.
+Highly qualified and experienced professional specialized in the areas of integration, modernization
+and migration of applications towards Open Source software.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Currently I am working as Principal Middleware Architect in Red Hat Professional Services helping our customers to
+achieve their goals. Focused into technical designing, providing reference architectures, executing proof of concepts,
+performance enchancements, writing technical documentation, giving workshops, reviewing automatitations, processes ... 
 
+If you are interested in my background, skills or other professional references,
+my [LinkedIn profile](https://www.linkedin.com/in/jromanmartin/) is the right place.
 
-[jekyll-organization]: https://github.com/jekyll
+Opinions expressed in this blog are my own and do not necessarily reflect that of the company I work for.
+
+Cheers :beers: ! 
+
+Roman ;)
