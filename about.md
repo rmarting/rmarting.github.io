@@ -14,6 +14,9 @@ Currently I am working as Principal Middleware Architect in Red Hat Professional
 achieve their goals. Focused into technical designing, providing reference architectures, executing proof of concepts,
 performance enchancements, writing technical documentation, giving workshops, reviewing automatitations, processes ... 
 
+I like to share my knowledge and experiency writing articles or giving presentations in meetups. You could
+review my [articles](/articles) and [presentations](/presentations). Always ready!!
+
 If you are interested in my background, skills or other professional references,
 my [LinkedIn profile](https://www.linkedin.com/in/jromanmartin/) is the right place.
 
