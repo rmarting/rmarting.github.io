@@ -1,6 +1,9 @@
 # rmarting.github.io
 
-[My personal blog](https://rmarting.github.io) about any kind of technical topics (integration, messaging, developing, ...)
+This is the repo of [my personal blog](https://blog.jromanmartin.io), enjoy it better on live.
+
+If you want to contribute, please, review my how you could do it [here](./CONTRIBUTING.md), and
+don't forget to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Running locally
 
