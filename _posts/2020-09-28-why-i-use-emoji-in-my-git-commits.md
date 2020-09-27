@@ -80,7 +80,7 @@ From my personal experience, I :cupid: [gitmoji-cli](https://www.npmjs.com/packa
 Carlos Cuesta. This is a simple, and easy CLI to add emojis in your commits. This tool
 includes helpers, searches to choose the right emoji before your commit or when your are committing:
 
-[![](/images/20200928/gitmoji-commit.png "gitmoji commit")]({{site.url}}/images/20200928/gitmoji-commit.png)
+->[![](/images/20200928/gitmoji-commit.png "gitmoji commit")]({{site.url}}/images/20200928/gitmoji-commit.png)<-
 
 The [git repo](https://github.com/carloscuesta/gitmoji) has everything you need to start to use it. 
 
