@@ -39,6 +39,8 @@ plugins:
   - jemoji
 permalink: /:year/:month/:day/:title:output_ext
 show_excerpts: true
+# Disabled build future posts
+future: false
 
 header_pages:
   - about.md
