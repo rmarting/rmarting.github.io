@@ -44,6 +44,7 @@ future: false
 
 header_pages:
   - about.md
+  - cheat-sheets.md
   - articles.md
   - meetups.md
   - CONTRIBUTING.md
