@@ -11,7 +11,7 @@ categories:
 - tutorial
 tags: []
 author:     rmarting
-comments:   false
+comments:   true
 ---
 
 [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) is a high-perfomance messaging system

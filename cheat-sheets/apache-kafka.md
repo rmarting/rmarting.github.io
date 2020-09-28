@@ -11,7 +11,7 @@ categories:
 - jekyll
 tags: []
 author:     rmarting
-comments:   false
+comments:   true
 ---
 
 [Apache Kafka](https://kafka.apache.org/) is an open-source distributed event streaming platform used

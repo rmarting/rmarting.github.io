@@ -11,7 +11,7 @@ categories:
 - jekyll
 tags: []
 author:     rmarting
-comments:   false
+comments:   true
 ---
 
 [Strimzi](https://kafka.apache.org/) is an open-source project that provides a way to run an

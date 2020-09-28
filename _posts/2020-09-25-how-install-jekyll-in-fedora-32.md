@@ -3,6 +3,7 @@ layout:     post
 title:      ":wrench: How to Install Jekyll in Fedora 32"
 date:       2020-09-25 09:28:53 +0200
 categories: how-to fedora32 ruby github
+comments:   true
 ---
 
 [Jekyll](https://jekyllrb.com/) is the engine behind [GitHub Pages](https://pages.github.com/)

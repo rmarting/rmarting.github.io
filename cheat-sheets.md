@@ -2,6 +2,7 @@
 layout:    page
 title:     Cheat Sheets
 permalink: /cheat-sheets/
+comments:  true
 ---
 
 [Cheat Sheets](https://en.wikipedia.org/wiki/Cheat_sheet) :bookmark: are concises set of notes :pencil:
@@ -15,6 +16,8 @@ of the following items:
 * [ActiveMQ Artemis Cheat Sheet](/cheat-sheets/activemq-artemis)
 * [Apache Kafka Cheat Sheet](/cheat-sheets/apache-kafka)
 * [Strimzi Cheat Sheet](/cheat-sheets/strimzi)
+* Code Ready Containers
+* Minikube
 
 I hope :pray: you could find them usefull. Feel free to use or improve the
 following my [contribution guide](/contributing).

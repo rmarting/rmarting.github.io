@@ -54,8 +54,8 @@ twitter_username: jromanmartin
 github_username:  rmarting
 
 # TODO
-#disqus:
-#  shortname: jromanmartin
+disqus:
+  shortname: jromanmartin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
