@@ -43,11 +43,11 @@ show_excerpts: true
 future: false
 
 header_pages:
-  - about.md
   - cheat-sheets.md
   - articles.md
   - meetups.md
   - CONTRIBUTING.md
+  - about.md
 
 # Social Media
 twitter_username: jromanmartin

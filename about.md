@@ -1,7 +1,8 @@
 ---
 layout:    page
-title:     About
-permalink: /about/
+title:     Me
+permalink: /me/
+comments:  false
 ---
 
 Hi :open_hands: !!! Nice to meet you :blush: !!!
