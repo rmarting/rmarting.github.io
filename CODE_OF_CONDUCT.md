@@ -2,6 +2,7 @@
 layout:    page
 title:     Contributor Covenant Code of Conduct
 permalink: /code-of-conduct/
+comments:  false
 ---
 
 ## Our Pledge

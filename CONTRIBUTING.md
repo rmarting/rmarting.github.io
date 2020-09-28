@@ -2,6 +2,7 @@
 layout:    page
 title:     Contributing
 permalink: /contributing/
+comments:  false
 ---
 
 :wave: Welcome! :wave:

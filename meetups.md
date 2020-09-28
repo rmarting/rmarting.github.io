@@ -2,6 +2,7 @@
 layout:    page
 title:     Meetups
 permalink: /meetups/
+comments:  false
 ---
 
 From time to time I give presentations in meetups, conferences or user groups

@@ -2,6 +2,7 @@
 layout:    page
 title:     Articles
 permalink: /articles/
+comments:  false
 ---
 
 I like to be author of content, not only in my blog site. Here you could
