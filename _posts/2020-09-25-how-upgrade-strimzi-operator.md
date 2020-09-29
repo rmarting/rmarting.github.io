@@ -1,7 +1,7 @@
 ---
 layout:     post
-type:       post
 title:      ":sparkles: How to upgrade Strimzi Operator using the CLI"
+toc:        true
 date:       2020-09-25 15:00
 published:  true
 status:     publish

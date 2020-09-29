@@ -1,6 +1,7 @@
 ---
 layout:    page
 title:     Contributor Covenant Code of Conduct
+toc:       true
 permalink: /code-of-conduct/
 comments:  false
 ---

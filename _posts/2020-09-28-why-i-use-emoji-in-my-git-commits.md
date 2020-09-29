@@ -1,7 +1,7 @@
 ---
 layout:     post
-type:       post
 title:      ":bulb: Why I use emojis in my Git commits"
+toc:        true
 date:       2020-09-28 08:00
 published:  true
 status:     publish

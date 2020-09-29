@@ -1,6 +1,7 @@
 ---
 layout:     page
 title:      "My own ActiveMQ Artemis Cheat Sheet"
+toc:        true
 permalink:  /cheat-sheets/activemq-artemis
 date:       2020-09-29 20:00
 published:  true

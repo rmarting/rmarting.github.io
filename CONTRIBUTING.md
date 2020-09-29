@@ -1,6 +1,7 @@
 ---
 layout:    page
 title:     Contributing
+toc:       true
 permalink: /contributing/
 comments:  false
 ---

@@ -1,6 +1,7 @@
 ---
 layout:     page
 title:      "My own Apache Kafka Cheat Sheet"
+toc:        true
 permalink:  /cheat-sheets/apache-kafka
 date:       2020-09-28 20:00
 published:  true

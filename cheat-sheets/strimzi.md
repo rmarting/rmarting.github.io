@@ -1,6 +1,7 @@
 ---
 layout:     page
 title:      "My own Strimzi Cheat Sheet"
+toc:        true
 permalink:  /cheat-sheets/strimzi
 date:       2020-10-01 20:00
 published:  true
