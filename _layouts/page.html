@@ -8,11 +8,8 @@ layout: default
   </header>
 
   <div>
-    <div id="table-of-contents">
-      {{ content | toc_only }}
-    </div>
     <div class="post-content">
-      {{ content | inject_anchors }}
+      {{ content | toc }}
     </div>
   </div>
 
