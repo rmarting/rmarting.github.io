@@ -117,7 +117,27 @@ CatalogSourceThe channel. Values: ```alpha```, ```beta```, or ```stable```.
 as ```Automatic``` then the upgrade of the operator will be done as soon a new version is available.
 * **startingCSV**: Identifies the initial version to install of the operator.
 
-This article is focused to show how to update the Strimzi Operator manually, so this is the reasson
+:bulb: If you don't know to values needed for these attributes, the following command will show you
+that information easily:
+
+```bash
+❯ oc get packagemanifest strimzi-kafka-operator \
+	-o jsonpath='{range .status.channels[*]}{"Chanel: "}{.name}{" -- CSV: "}{.currentCSV}{" -- Version: "}{.currentCSVDesc.version}{" -- skipRange: "}{.currentCSVDesc.annotations.olm\.skipRange}{"\n"}'
+Chanel: stable -- CSV: strimzi-cluster-operator.v0.19.0 -- Version: 0.19.0 -- skipRange: 
+Chanel: strimzi-0.19.x -- CSV: strimzi-cluster-operator.v0.19.0 -- Version: 0.19.0 -- skipRange: 
+```
+
+For Red Hat AMQ Streams should be similar to:
+
+```bash
+❯ oc get packagemanifest amq-streams \
+	-o jsonpath='{range .status.channels[*]}{"Chanel: "}{.name}{" -- CSV: "}{.currentCSV}{" -- Version: "}{.currentCSVDesc.version}{" -- skipRange: "}{.currentCSVDesc.annotations.olm\.skipRange}{"\n"}'
+Chanel: amq-streams-1.5.x -- CSV: amqstreams.v1.5.3 -- Version: 1.5.3 -- skipRange: 
+Chanel: amq-streams-1.x -- CSV: amqstreams.v1.5.3 -- Version: 1.5.3 -- skipRange: 
+Chanel: stable -- CSV: amqstreams.v1.5.3 -- Version: 1.5.3 -- skipRange: 
+```
+
+:bulb: This article is focused to show how to update the Strimzi Operator manually, so this is the reasson
 that we will use ```Manual``` installation plan approval mode. It could be a good practice to declare
 your subscriptions manually to control in which moment update your operators.
 
