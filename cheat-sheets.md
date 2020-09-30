@@ -5,12 +5,12 @@ permalink: /cheat-sheets/
 comments:  false
 ---
 
-[Cheat Sheets](https://en.wikipedia.org/wiki/Cheat_sheet) :bookmark: are concises set of notes :pencil:
+[Cheat Sheets](https://en.wikipedia.org/wiki/Cheat_sheet) :bookmark: are a concise set of notes :pencil:
 used for a quick reference. Many enterprise products, community projects and systems provide them to help and
-facilitate the life of the users :couple:.
+ease the life of their users :couple:.
 
-After many time :calendar: working with some projects, I created my own cheet sheets for different projects
-and products used in my daily labor. I shared here for anyone needs a quick reference of some
+After many time :calendar: working with some projects, I have created my own cheet sheets for different projects
+and products I use in my daily work. I share them here for anyone that needs a quick reference on some
 of the following items:
 
 * :bookmark: [ActiveMQ Artemis Cheat Sheet](/cheat-sheets/activemq-artemis)
@@ -18,7 +18,7 @@ of the following items:
 * :bookmark: [Strimzi Cheat Sheet](/cheat-sheets/strimzi)
 * :bookmark: [Code Ready Containers](/cheat-sheets/crc)
 
-I hope :pray: you could find them usefull. Feel free to use or improve the
+I hope :pray: you find them useful. Feel free to use or improve them
 following my [contribution guide](/contributing).
 
 ## References
