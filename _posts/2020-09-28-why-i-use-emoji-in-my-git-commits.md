@@ -4,7 +4,7 @@ title:      ":bulb: Why I use emojis in my Git commits"
 date:       2020-09-28 08:00
 toc:        true
 comments:   true
-img:        software.jpg
+img:        git-merge.jpg
 tags: 
 - How-to
 - git
