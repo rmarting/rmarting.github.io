@@ -1,10 +1,13 @@
 ---
-layout:     post
-title:      ":tada: Welcome to my Blog!"
-toc:        false
-date:       2020-09-25 09:00:00 +0200
-categories: news
-comments:   false
+layout:      post
+title:       ":tada: Welcome to my Blog!"
+description: This is my first post in my personal blog.
+date:        2020-09-25 09:00:00 +0200
+toc:         false
+comments:    false
+img:         software.jpg
+tags:
+- News
 ---
 
 :wave: Welcome to my Blog! :wave:

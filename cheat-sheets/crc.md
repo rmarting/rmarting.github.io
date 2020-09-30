@@ -1,18 +1,14 @@
 ---
-layout:     page
+layout:     post
 title:      "My own CodyReady Containers Cheat Sheet"
 toc:        true
-permalink:  /cheat-sheets/crc
-date:       2020-10-29 10:00
-published:  true
-status:     publish
-categories: 
-- how-to
-- github-pages
-- jekyll
-tags: []
-author:     rmarting
 comments:   true
+permalink:  /cheat-sheets/crc
+tags: 
+- How-to
+- Cheat Sheet
+- CRC
+- tutorial
 ---
 
 [Red Hat CodeReady Container](https://developers.redhat.com/products/codeready-containers/overview) (CRC to abbreviate)

@@ -1,18 +1,14 @@
 ---
-layout:     page
+layout:     post
 title:      "My own ActiveMQ Artemis Cheat Sheet"
 toc:        true
-permalink:  /cheat-sheets/activemq-artemis
-date:       2020-09-29 20:00
-published:  true
-status:     publish
-categories: 
-- cheat-sheet
-- activemq-artemis
-- tutorial
-tags: []
-author:     rmarting
 comments:   true
+permalink:  /cheat-sheets/activemq-artemis
+tags: 
+- How-to
+- Cheat Sheet
+- ActiveMQ Artemis
+- tutorial
 ---
 
 [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) is a high-perfomance messaging system

@@ -1,20 +1,17 @@
 ---
 layout:     post
 title:      ":sparkles: How to upgrade Strimzi Operator using the CLI"
-toc:        true
 date:       2020-09-25 15:00
-published:  true
-status:     publish
-categories:
-- how-to
-- kubernetes
-- openshift
-- operators
-- strimzi
-- red hat amq streams
-tags: []
-author:     rmarting
+toc:        true
 comments:   true
+img:        how-to.jpg
+tags:
+- How-to
+- kubernetes
+- OpenShift
+- operators
+- Strimzi
+- Red Hat AMQ Streams
 ---
 
 [Operator Lifecycle Manager (OLM)]((https://docs.openshift.com/container-platform/4.5/operators/understanding_olm/olm-understanding-olm.html))

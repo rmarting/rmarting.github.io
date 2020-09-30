@@ -1,18 +1,14 @@
 ---
-layout:     page
+layout:     post
 title:      "My own Strimzi Cheat Sheet"
 toc:        true
-permalink:  /cheat-sheets/strimzi
-date:       2020-10-01 20:00
-published:  true
-status:     publish
-categories: 
-- how-to
-- github-pages
-- jekyll
-tags: []
-author:     rmarting
 comments:   true
+permalink:  /cheat-sheets/strimzi
+tags: 
+- How-to
+- Cheat Sheet
+- Strimzi
+- tutorial
 ---
 
 [Strimzi](https://kafka.apache.org/) is an open-source project that provides a way to run an

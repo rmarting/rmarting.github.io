@@ -1,18 +1,14 @@
 ---
-layout:     page
+layout:     post
 title:      "My own Apache Kafka Cheat Sheet"
 toc:        true
-permalink:  /cheat-sheets/apache-kafka
-date:       2020-09-28 20:00
-published:  true
-status:     publish
-categories: 
-- how-to
-- github-pages
-- jekyll
-tags: []
-author:     rmarting
 comments:   true
+permalink:  /cheat-sheets/apache-kafka
+tags:
+- How-to
+- Cheat Sheet
+- Apache Kafka
+- tutorial
 ---
 
 [Apache Kafka](https://kafka.apache.org/) is an open-source distributed event streaming platform used

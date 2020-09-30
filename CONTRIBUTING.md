@@ -1,5 +1,5 @@
 ---
-layout:    page
+layout:    post
 title:     Contributing
 toc:       true
 permalink: /contributing/

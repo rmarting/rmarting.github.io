@@ -1,18 +1,16 @@
 ---
 layout:     post
 title:      ":bulb: Why I use emojis in my Git commits"
-toc:        true
 date:       2020-09-28 08:00
-published:  true
-status:     publish
-categories: 
-- how-to
+toc:        true
+comments:   true
+img:        software.jpg
+tags: 
+- How-to
 - git
 - emoji
 - development
-tags: []
-author:     rmarting
-comments:   true
+- productivity
 ---
 
 We use [Emojis](https://getemoji.com/) every day in different channels like Telegram, Slack, Whatsapp,

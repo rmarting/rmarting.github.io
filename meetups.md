@@ -1,5 +1,5 @@
 ---
-layout:    page
+layout:    post
 title:     Meetups
 permalink: /meetups/
 comments:  false

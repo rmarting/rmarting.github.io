@@ -1,5 +1,5 @@
 ---
-layout:    page
+layout:    post
 title:     Contributor Covenant Code of Conduct
 toc:       true
 permalink: /code-of-conduct/

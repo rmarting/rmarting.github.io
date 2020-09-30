@@ -1,8 +1,8 @@
 ---
-layout:    page
+layout:    post
 title:     Cheat Sheets
 permalink: /cheat-sheets/
-comments:  true
+comments:  false
 ---
 
 [Cheat Sheets](https://en.wikipedia.org/wiki/Cheat_sheet) :bookmark: are concises set of notes :pencil:
