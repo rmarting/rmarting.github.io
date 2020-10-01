@@ -21,7 +21,8 @@ layout: default
           {%- if my_page.title -%}
             <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a><br/></li>
           {%- endif -%}
-        {%- endfor -%}        
+        {%- endfor -%}
+        <li><a href="/tags">Tags</a><br/></li>
       </ul>
       {%- endif -%}      
     </section><!-- End Section Links -->
