@@ -4,10 +4,10 @@ title:      ":wrench: How to Install Jekyll in Fedora 32"
 date:       2020-09-25 09:28:53 +0200
 toc:        true
 comments:   true
-img:        how-to.jpg
+img:        fedora-logo.png
 tags: 
 - How-to 
-- fedora32 
+- fedora32
 - ruby 
 - GitHub
 ---
