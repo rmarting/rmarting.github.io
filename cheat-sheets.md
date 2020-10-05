@@ -17,6 +17,7 @@ of the following items:
 * :bookmark: [Apache Kafka Cheat Sheet](/cheat-sheets/apache-kafka)
 * :bookmark: [Strimzi Cheat Sheet](/cheat-sheets/strimzi)
 * :bookmark: [Code Ready Containers](/cheat-sheets/crc)
+* :bookmark: [Minishift](/cheat-sheets/minishift)
 
 I hope :pray: you find them useful. Feel free to use or improve them
 following my [contribution guide](/contributing).
