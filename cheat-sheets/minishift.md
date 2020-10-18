@@ -353,6 +353,36 @@ deploymentconfig.apps.openshift.io/router updated
 deploymentconfig.apps.openshift.io/router scaled
 ```
 
+This feature is very usefull to expose [headless services](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/pods_and_services.html#headless-services)
+with a set of pods deployed with its own route to access:
+
+A wildcard route definition will be similar to:
+
+```yaml
+apiVersion: v1
+kind: Route
+metadata:
+  name: wildcard-route
+spec:
+  port:
+    targetPort: pod-port
+  tls:
+    termination: passthrough
+  to:
+    kind: Service
+    name: service-headless
+    weight: 100
+  wildcardPolicy: Subdomain
+  host: star.service-headless.192.168.42.159.nip.io
+```
+
+If the ```service-headless``` service exposes three pods, the final routes for each of
+them will be similar to:
+
+* http://pod-0.service-headless.192.168.42.159.nip.io
+* http://pod-1.service-headless.192.168.42.159.nip.io
+* http://pod-2.service-headless.192.168.42.159.nip.io
+
 References:
 
 * [Using Wildcard Routes](https://docs.openshift.com/container-platform/3.11/install_config/router/default_haproxy_router.html#using-wildcard-routes)

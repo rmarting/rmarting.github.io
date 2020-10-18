@@ -266,6 +266,74 @@ Where:
   - Queue: ```queue://SampleQueue```
   - Topic: ```queue://SampleTopic```
 
+## Durable Subscription Queue
+
+The broker saves messages for any inactive subscribers when a queue is configured as a Durable Subscription. The broker delivers them to
+the subscribers when they reconnect. Clients are therefore guaranteed to recive each message delivered to the queue
+after subscribing to it.
+
+A sample definition will be similar to:
+
+```xml
+<address name="topic">
+  <multicast>
+    <queue name="subscription1">
+      <durable>true</durable>
+    </queue>
+    <queue name="subscription2">
+      <durable>true</durable>
+    </queue>
+  </multicast>
+</address>
+```
+
+This is a sample definition of a Durable Subscription Queue to be used with the Artemis producer and consumer tools:
+
+```xml
+<address name="topic.events">
+  <multicast>
+    <queue name="c1.Consumer ActiveMQTopic[topic.foo], thread=0">
+      <durable>true</durable>
+    </queue>
+    <queue name="c2.Consumer ActiveMQTopic[topic.foo], thread=0">
+      <durable>true</durable>
+    </queue>
+  </multicast>
+</address>
+```
+
+This command produces a number of messages to the topic:
+
+```bash
+./bin/artemis producer --url tcp://$HOSTNAME:5672 --user admin --password admin --protocol amqp  --destination topic://topic.events --threads 1 --message-count 100 --text-size 1024
+```
+
+This command consumes the messages from the ```c1``` subscription:
+
+```bash
+./bin/artemis consumer --url tcp://$HOSTNAME:5672 --user admin --password admin --protocol amqp --destination topic://topic.events --threads 1 --message-count 100 --durable --clientID c1
+```
+
+This other command consumes the messages from the ```c2``` subscrption:
+
+```bash
+./bin/artemis consumer --url tcp://$HOSTNAME:5672 --user admin --password admin --protocol amqp --destination topic://topic.events --threads 1 --message-count 100 --durable --clientID c2
+```
+
+**NOTE**: These queues could be consumed using JMS Message Consumers using 
+[Fully Qualified Queue Names (FQQN)](https://access.redhat.com/documentation/en-us/red_hat_amq/7.7/html-single/configuring_amq_broker/index#fqqn) as:
+
+```java
+String FQQN = "topic::subscription1";
+Queue queueDestination session.createQueue(FQQN);
+MessageConsumer consumer = session.createConsumer(queueDestination);
+```
+
+References:
+
+* [ActiveMQ Artemis - Addressing Model](https://activemq.apache.org/components/artemis/documentation/latest/address-model.html)
+* [Red Hat AMQ Broker - Configuring Subscription Queues](https://access.redhat.com/documentation/en-us/red_hat_amq/7.7/html-single/configuring_amq_broker/index#configuring_subscription_queues)
+
 ## AMQP Secured Connection
 
 Client connection string for AMQP secure protocol:
