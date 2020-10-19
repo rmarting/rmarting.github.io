@@ -104,7 +104,7 @@ spec:
   startingCSV: amqstreams.v1.4.0
 ```
 
-In both cases the following attributes are the importants:
+In both cases the following attributes are the important:
 
 The channel, such as alpha, beta, or stable, helps determine which Operator stream should be installed from the CatalogSource.
 
@@ -134,7 +134,7 @@ Chanel: amq-streams-1.x -- CSV: amqstreams.v1.5.3 -- Version: 1.5.3 -- skipRange
 Chanel: stable -- CSV: amqstreams.v1.5.3 -- Version: 1.5.3 -- skipRange: 
 ```
 
-:bulb: This article is focused to show how to update the Strimzi Operator manually, so this is the reasson
+:bulb: This article is focused to show how to update the Strimzi Operator manually, so this is the reason
 that we will use ```Manual``` installation plan approval mode. It could be a good practice to declare
 your subscriptions manually to control in which moment update your operators.
 
@@ -193,7 +193,7 @@ Now you are ready to deploy an Apache Kafka cluster using the Kafka CRD provided
 When a new version of your operator is released, OLM will check it and then a new install plan
 will be created for the new version.
 
-If there is a new version avaible, the install plan should be similar to:
+If there is a new version available, the install plan should be similar to:
 
 ```bash
 ❯ oc get ip
@@ -209,7 +209,7 @@ we could approved in the same way as the first installation:
 ❯ oc patch installplan install-2lxhr --type merge --patch '{"spec":{"approved":true}}'
 ```
 
-When the new version is actived the CSV will be updated and then you could check the upgrading history:
+When the new version is active the CSV will be updated and then you could check the upgrading history:
 
 ```bash
 ❯ oc get csv
@@ -241,7 +241,7 @@ strimzi-cluster-operator-v0.17.0-5d9c7757c9-2blvf   1/1     Terminating         
 This process will be repeated every time a new version of the operator is available. You only need to
 approve each version.
 
-## Versions Upgrading Worflow
+## Versions Upgrading Workflow
 
 Strimzi Operator is a very matured operator and includes a large list of versions. Each version
 includes a set of new features. If you start from an older version, OLM will prompt you to upgrade

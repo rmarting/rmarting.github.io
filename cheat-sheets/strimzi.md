@@ -14,14 +14,14 @@ tags:
 [Strimzi](https://kafka.apache.org/) is an open-source project that provides a way to run an
 Apache Kafka cluster on Kubernetes in various deployment configurations.
 
-This cheat sheet includes the most commond commands to install, deploy, administrate or
+This cheat sheet includes the most common commands to install, deploy, administrate or
 operate an Apache Kafka cluster using Strimzi operators.
 
 **NOTE**: Apache Kafka is the upstream project of
 [Red Hat AMQ Streams](https://access.redhat.com/products/red-hat-amq#streams), so these commands are also
 valid for this product.
 
-To execute most of the commands listed here require a Kubernetes (kubectl) or OpenShift CLI (oc). 
+To execute most of the commands listed here require a Kubernetes (```kubectl```) or OpenShift CLI (```oc```).
 
 Enjoy it !!! :cool: :sunglasses:
 
@@ -35,7 +35,7 @@ availables are:
 * ```podman pull docker.io/strimzi/kafka:latest-kafka-2.4.0```
 
 Red Hat AMQ Streams images are published in [Red Hat Container Catalog](https://catalog.redhat.com/software/containers/explore).
-The main versions availables are:
+The main versions available are:
 
 * ```podman pull registry.redhat.io/amq7/amq-streams-kafka-25-rhel7```
 * ```podman pull registry.redhat.io/amq7/amq-streams-kafka-24-rhel7```
@@ -115,7 +115,7 @@ Reference:
 
 * [Strimzi / Performing a rolling update of a Kafka cluster](https://strimzi.io/docs/operators/master/using.html#proc-manual-rolling-update-kafka-deployment-configuration-kafka)
 
-## Topic Managment
+## Topic Management
 
 * Create a topic using a KafkaTopic resource:
 

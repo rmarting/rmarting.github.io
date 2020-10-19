@@ -20,7 +20,7 @@ OpenShift or develop with it, day-to-day, on your local host.
 :point_right: [Red Hat Container Development Kit](https://developers.redhat.com/products/cdk/overview) is the enterprise
 version of minishift provided by Red Hat.
 
-This cheat sheet includes the most commond commands to install, deploy, administrate or
+This cheat sheet includes the most common commands to install, deploy, administrate or
 operate your local OpenShift using minishift.
 
 Enjoy it !!! :cool: :sunglasses:
@@ -48,7 +48,7 @@ to start it.
 
 ## Resourcing
 
-By default minishift defines very low resources (cpus, memory). You could check them as:
+By default minishift defines very low resources (CPU, memory). You could check them as:
 
 ```bash
 ❯ minishift config view
@@ -57,13 +57,13 @@ By default minishift defines very low resources (cpus, memory). You could check 
 - vm-driver                          : kvm
 ```
 
-To assing the number of cpus:
+To assign the number of CPU:
 
 ```bash
 ❯ minishift config set cpus 4
 ```
 
-To assing the memory:
+To assign the memory:
 
 ```bash
 ❯ minishift config set memory 16384
@@ -91,6 +91,31 @@ the CDK simply retrieves the password from the keystore.
 ```bash
 ❯ export MINISHIFT_USERNAME='<RED_HAT_USERNAME>'
 ❯ export MINISHIFT_PASSWORD='<RED_HAT_PASSWORD>'
+```
+
+Registration could be skipped using the ```--skip-registration``` argument in the start command.
+
+:point_right: You could improve the start up time disabling many checks with ```--skip-startup-checks``` argument.
+
+## OpenShift Version
+
+Minishift will start with a default OpenShift version, however you could define which version using
+the ```--openshift-version``` as:
+
+```bash
+❯ minishift start --openshift-version v3.11.286 
+```
+
+You could check the full list of OpenShift versions available with the next command:
+
+```bash
+❯ minishift openshift version list
+The following OpenShift versions are available: 
+The following OpenShift versions are available: 
+        - v3.10.14
+# skipped long list
+        - v3.11.272
+        - v3.11.286
 ```
 
 ## Endpoints and Credentials
@@ -213,6 +238,12 @@ See https://github.com/openshift/openshift-ansible/tree/release-3.11/roles/opens
  https://docs.okd.io/latest/creating_images/guidelines.html#openshift-origin-specific-guidelines for more information.
 ```
 
+To disable an addon:
+
+```bash
+❯ minishift addon disable xpaas
+```
+
 ## Define an user as cluster-admin
 
 The easy way to define a *cluster-admin* user is using the **admin-user** add-on:
@@ -237,7 +268,7 @@ command will promote to *cluster-admin* the *developer* user.
 ❯ oc adm policy add-cluster-role-to-user cluster-admin developer
 ```
 
-:warning: A high power requires higher responsability. :warning:
+:warning: A high power requires higher responsibility. :warning:
 
 ## Status
 
@@ -295,7 +326,7 @@ CDK has not an *update* automatic method, so you have to follow the next steps:
 
 I know that it is not so good ... but this is the way!
 
-## Register images to registry.redhat.io
+## Pull images from registry.redhat.io
 
 Red Hat Registry is an authenticated service, so it is needed to have valid
 credentials to pull images from here.
@@ -334,6 +365,27 @@ Link secret to *default* and *builder* service accounts.
 ❯ oc secrets link builder cdk-3-pull-secret
 ```
 
+Other alternative is declare a secret for ```docker-registry``` using Red Hat credentials, as we declared to
+register OpenShift at start up time:
+
+```bash
+❯ oc create secret docker-registry imagestreamsecret --docker-username=${MINISHIFT_USERNAME} --docker-password=${MINISHIFT_PASSWORD} --docker-server=registry.redhat.io -n openshift --as system:admin
+```
+
+Now you could import official images such as:
+
+```bash
+❯ oc import-image openshift/nodejs:8 --from=registry.redhat.io/rhscl/nodejs-8-rhel7:latest --confirm -n openshift --as system:admin
+❯ oc import-image openshift/httpd --from=registry.redhat.io/rhscl/httpd-24-rhel7 --confirm -n openshift --as system:admin
+```
+
+Or:
+
+```bash
+❯ oc delete is --all -n openshift --as system:admin
+❯ oc apply -f https://raw.githubusercontent.com/openshift/origin/master/examples/image-streams/image-streams-rhel7.json -n openshift --as system:admin
+```
+
 ## Using Wildcard Routes (for a Subdomain)
 
 OpenShift 3 has support for wildcard routes, however this feature is not
@@ -353,7 +405,7 @@ deploymentconfig.apps.openshift.io/router updated
 deploymentconfig.apps.openshift.io/router scaled
 ```
 
-This feature is very usefull to expose [headless services](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/pods_and_services.html#headless-services)
+This feature is very useful to expose [headless services](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/pods_and_services.html#headless-services)
 with a set of pods deployed with its own route to access:
 
 A wildcard route definition will be similar to:
@@ -387,7 +439,7 @@ References:
 
 * [Using Wildcard Routes](https://docs.openshift.com/container-platform/3.11/install_config/router/default_haproxy_router.html#using-wildcard-routes)
 
-## Throubleshooting
+## Troubleshooting
 
 ### minishift_kubeconfig does not exists
 
@@ -406,7 +458,7 @@ Error applying the add-on: The specified path to the kube config '/home/rmarting
 I don't know the root cause of this issue, however create a symbolic link as workaround works for me: 
 
 ```bash
-❯ ln -s ~/.kube/config ~.minishift/machines/minishift_kubeconfig
+❯ ln -s ~/.kube/config ~/.minishift/machines/minishift_kubeconfig
 ```
 
 :point_right: This issue is tracked in [CDK-360](https://issues.redhat.com/browse/CDK-360) issue. 

@@ -11,10 +11,10 @@ tags:
 - tutorial
 ---
 
-[ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) is a high-perfomance messaging system
-for higly scalable microservices or asynchrnous messaging between different systems.
+[ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) is a high-performance messaging system
+for highly scalable microservices or asynchronous messaging between different systems.
 
-This cheat sheet includes the most commond commands to install, deploy, administrate or
+This cheat sheet includes the most common commands to install, deploy, administrate or
 operate a messaging system based in ActiveMQ Artemis.
 
 **NOTE**: ActiveMQ Artemis is the upstream project of
@@ -33,7 +33,7 @@ The topology based in:
 This diagram shows us this topology:
 
 {:refdef: style="text-align: center;"}
-[![](/images/activemq-artemis/artemis-journal-replication.png "gitmoji commit")]({{site.url}}/images/activemq-artemis/artemis-journal-replication.png)
+[![](/images/activemq-artemis/artemis-journal-replication.png "Artemis Journal Replication")]({{site.url}}/images/activemq-artemis/artemis-journal-replication.png)
 {: refdef}
 
 ## Symmetric Cluster and Shared Journal
@@ -46,7 +46,7 @@ The topology based in:
 This diagram shows us this topology:
 
 {:refdef: style="text-align: center;"}
-[![](/images/activemq-artemis/artemis-shared-journal.png "gitmoji commit")]({{site.url}}/images/activemq-artemis/artemis-shared-journal.png)
+[![](/images/activemq-artemis/artemis-shared-journal.png "Artemis Shared Journal")]({{site.url}}/images/activemq-artemis/artemis-shared-journal.png)
 {: refdef}
 
 ## Create a Live/Backup pair with Sharing Storage
@@ -269,7 +269,7 @@ Where:
 ## Durable Subscription Queue
 
 The broker saves messages for any inactive subscribers when a queue is configured as a Durable Subscription. The broker delivers them to
-the subscribers when they reconnect. Clients are therefore guaranteed to recive each message delivered to the queue
+the subscribers when they reconnect. Clients are therefore guaranteed to receive each message delivered to the queue
 after subscribing to it.
 
 A sample definition will be similar to:
@@ -314,7 +314,7 @@ This command consumes the messages from the ```c1``` subscription:
 ./bin/artemis consumer --url tcp://$HOSTNAME:5672 --user admin --password admin --protocol amqp --destination topic://topic.events --threads 1 --message-count 100 --durable --clientID c1
 ```
 
-This other command consumes the messages from the ```c2``` subscrption:
+This other command consumes the messages from the ```c2``` subscription:
 
 ```bash
 ./bin/artemis consumer --url tcp://$HOSTNAME:5672 --user admin --password admin --protocol amqp --destination topic://topic.events --threads 1 --message-count 100 --durable --clientID c2
@@ -346,7 +346,7 @@ amqps://HOSTNAME:5671?sslEnabled=true&transport.trustAll=true&transport.verifyHo
 
 This feature allows to process messages with a particular group ID in the same order by the
 consumers. Each clustered broker therefore uses a grouping handler to manage the complexity of routing
-of grouped messages. Each clustered broker should chooke should choose a grouping hanlder type: Local or Remote.
+of grouped messages. Each clustered broker should choose should choose a grouping handler type: Local or Remote.
 
 Reference: [Clustered Messaging Grouping](https://activemq.apache.org/components/artemis/documentation/latest/message-grouping.html)
 
@@ -437,7 +437,7 @@ amq-broker    	soft	nofile      	65001
 amq-broker    	hard	nofile      	65001
 ```
 
-**WARNING**: In RHEL 8 this step is no longer needed since nofile defaults have been increased to 1048576 max open files.
+**WARNING**: In RHEL 8 this step is no longer needed since ```nofile``` defaults have been increased to 1048576 max open files.
 
 ActiveMQ Artemis includes a general server thread pool used for most asynchronous actions on the
 server side. This pool is defined by default to use only 30 threads and it is very useful to improve the performance.

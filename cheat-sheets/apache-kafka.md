@@ -14,7 +14,7 @@ tags:
 [Apache Kafka](https://kafka.apache.org/) is an open-source distributed event streaming platform used
 for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
 
-This cheat sheet includes the most commond commands to install, deploy, administrate or
+This cheat sheet includes the most common commands to install, deploy, administrate or
 operate an Apache Kafka cluster.
 
 **NOTE**: Apache Kafka is the upstream project of

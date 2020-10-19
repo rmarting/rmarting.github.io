@@ -13,7 +13,7 @@ tags:
 - productivity
 ---
 
-We use [Emojis](https://getemoji.com/) every day in different channels like Telegram, Slack, Whatsapp,
+We use [Emojis](https://getemoji.com/) every day in different channels like Telegram, Slack, WhatsApp,
 Google Chats, ... They are a fast way to communicate in this visual world. So I use them too in my 
 git commits in the same way.
 
@@ -71,7 +71,7 @@ Choose your own ones.
 
 ## Tools
 
-I know that it is very hard to learn all the emojis availables, however there are some useful tools
+I know that it is very hard to learn all the emojis available, however there are some useful tools
 to help you. 
 
 From my personal experience, I :cupid: [gitmoji-cli](https://www.npmjs.com/package/gitmojis) by

@@ -13,7 +13,7 @@ and migration of applications towards Open Source software.
 
 Currently I am working as Principal Middleware Architect in Red Hat Professional Services helping our customers to
 achieve their goals. Focused in technical designing, providing reference architectures, executing proof of concepts,
-performance enchancements, writing technical documentation, giving workshops, reviewing automations, processes ... 
+performance enhancements, writing technical documentation, giving workshops, reviewing automation's, processes ... 
 
 I like to share my knowledge and experience writing articles or giving presentations in meetups. You could
 review my [articles](/articles) and [presentations](/meetups). Always ready!!

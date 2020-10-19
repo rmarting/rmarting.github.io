@@ -12,9 +12,9 @@ tags:
 ---
 
 [Red Hat CodeReady Container](https://developers.redhat.com/products/codeready-containers/overview) (CRC to abbreviate)
-brings a minimal, preconfigured OpenShift 4 cluster :cloud: to your local laptop or desktop computer for development and testing purposes.
+brings a minimal, configured OpenShift 4 cluster :cloud: to your local laptop or desktop computer for development and testing purposes.
 
-This cheat sheet includes the most commond commands to install, deploy, administrate or
+This cheat sheet includes the most common commands to install, deploy, administrate or
 operate your local OpenShift using CRC.
 
 Enjoy it !!! :cool: :sunglasses:
@@ -76,7 +76,7 @@ command will promote to *cluster-admin* the *developer* user.
 ❯ oc adm policy add-cluster-role-to-user cluster-admin developer
 ```
 
-:warning: A high power requires higher responsability. :warning:
+:warning: A high power requires higher responsibility. :warning:
 
 ## Create new users
 

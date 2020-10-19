@@ -9,7 +9,7 @@ comments:  false
 used for a quick reference. Many enterprise products, community projects and systems provide them to help and
 ease the life of their users :couple:.
 
-After many time :calendar: working with some projects, I have created my own cheet sheets for different projects
+After many time :calendar: working with some projects, I have created my own cheat sheets for different projects
 and products I use in my daily work. I share them here for anyone that needs a quick reference on some
 of the following items:
 
