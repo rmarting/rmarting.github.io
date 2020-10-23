@@ -224,6 +224,14 @@ only to path the load balancer route (in the case of OpenShift) as:
 ❯ oc patch route kafka-clients-quarkus-sample-lb --type=merge -p '{"spec": {"to": {"name": "kafka-clients-quarkus-sample-blue"}}}'
 {% endhighlight %}
 
+## Some the code
+
+If you want to test and verify this approach, I developed a sample case in one of my favorite
+[GitHub repo](https://github.com/rmarting/kafka-clients-quarkus-sample/tree/feature/b-g-deployment-strategy).
+This repo includes amazing frameworks as [Quarkus](https://quarkus.io/), [Schemas Avro](https://avro.apache.org/)
+and [Apache Kafka](https://kafka.apache.org/) in a
+small [Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture).
+
 Enjoy it! :muscle:
 
 ## References
