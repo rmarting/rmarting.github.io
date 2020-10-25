@@ -15,12 +15,12 @@ tags:
 
 In my daily I usually start linux containers with [podman](https://podman.io/) to have easily and quickly
 tools; such as databases, brokers or systems. This method allow me to avoid to install locally and administrate
-locally. 
+them locally.
 
 To manage these linux containers I have usually local scripts with the arguments, parameters and set up to
 my use cases (I forget very easily the commands ... yes, I know! the ```history``` command could 
 help me but I am lazy :grin:). These scripts include the typical options to start, stop, delete
-and so on. For many of colleagues use these kind of commands are very common, however for me it is
+and so on. For many of my colleagues use these kind of commands are very common, however for me it is
 a little tedious and bored :unamused: so to have a graphical tool will be great and better for me :yum:.
 
 So here is when I found a great tool to integrate with my Fedora laptop ...
