@@ -224,7 +224,7 @@ only to path the load balancer route (in the case of OpenShift) as:
 ❯ oc patch route kafka-clients-quarkus-sample-lb --type=merge -p '{"spec": {"to": {"name": "kafka-clients-quarkus-sample-blue"}}}'
 {% endhighlight %}
 
-## Some the code
+## Show me the code
 
 If you want to test and verify this approach, I developed a sample case in one of my favorite
 [GitHub repo](https://github.com/rmarting/kafka-clients-quarkus-sample/tree/feature/b-g-deployment-strategy).
