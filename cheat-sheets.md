@@ -18,6 +18,7 @@ of the following items:
 * :bookmark: [Strimzi Cheat Sheet](/cheat-sheets/strimzi)
 * :bookmark: [Code Ready Containers](/cheat-sheets/crc)
 * :bookmark: [Minishift](/cheat-sheets/minishift)
+* :bookmark: [Minikube](/cheat-sheets/minikube)
 
 I hope :pray: you find them useful. Feel free to use or improve them
 following my [contribution guide](/contributing).
