@@ -119,7 +119,10 @@ compression.type=none
 In case the Apache Kafka requires SASL authentication with SCRAM-SHA-512, the following properties must be declared:
 
 ```text
+# SASL by plain connection
 security.protocol=SASL_PLAINTEXT
+# SASL by secured connection (SSL)
+#security.protocol=SASL_SSL
 sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=passw0rd;
 ```
@@ -165,7 +168,10 @@ group.id=consumer-group
 In case the Apache Kafka requires SASL authentication with SCRAM-SHA-512, the following properties must be declared:
 
 ```text
+# SASL by plain connection
 security.protocol=SASL_PLAINTEXT
+# SASL by secured connection (SSL)
+#security.protocol=SASL_SSL
 sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=passw0rd;
 ```

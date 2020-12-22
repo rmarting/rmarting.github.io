@@ -63,7 +63,10 @@ To execute a producer performance test:
 If Apache Kafka requires SASL authentication with SCRAM-SHA-512 the following properties should be passed:
 
 ```text
+# SASL by plain connection
 security.protocol=SASL_PLAINTEXT
+# SASL by secured connection (SSL)
+#security.protocol=SASL_SSL
 sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=StrimziIsTheBest;"
 ```
@@ -104,7 +107,10 @@ To execute a consumer performance test:
 If Apache Kafka requires SASL authentication with SCRAM-SHA-512 the following properties should be passed:
 
 ```text
+# SASL by plain connection
 security.protocol=SASL_PLAINTEXT
+# SASL by secured connection (SSL)
+#security.protocol=SASL_SSL
 sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=StrimziIsTheBest;"
 ```
