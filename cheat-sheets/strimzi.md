@@ -28,7 +28,7 @@ Enjoy it !!! :cool: :sunglasses:
 ## Linux Container Images
 
 Strimzi Images are published in [Docker Hub](https://hub.docker.com/r/strimzi/kafka/tags). The main images
-availables are:
+available are:
 
 * ```podman pull docker.io/strimzi/kafka:latest-kafka-2.6.0```
 * ```podman pull docker.io/strimzi/kafka:latest-kafka-2.5.0```
@@ -68,6 +68,21 @@ sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=StrimziIsTheBest;"
 ```
 
+To set up these properties in the ```kafka-producer-perf-test``` script use the ```--producer-property``` argument:
+
+```bash
+❯ oc run kafka-producer-perf-test -ti --image=$STRIMZI_IMAGE \
+  --rm=true --restart=Never \
+  -- bin/kafka-producer-perf-test.sh --topic my-topic-sample --num-records 100000 \
+     --throughput 1000 \
+     --record-size 2048 \
+     --print-metrics \
+     --producer-property bootstrap.servers=my-cluster-kafka-bootstrap:9092 \
+     --producer-property security.protocol=SASL_PLAINTEXT \
+     --producer-property sasl.mechanism=SCRAM-SHA-512 \
+     --producer-property "sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=StrimziIsTheBest;"
+```
+
 ## Sample Consumers
 
 To execute a single kafka console consumer:
@@ -92,6 +107,21 @@ If Apache Kafka requires SASL authentication with SCRAM-SHA-512 the following pr
 security.protocol=SASL_PLAINTEXT
 sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=StrimziIsTheBest;"
+```
+
+To set up these properties in the ```kafka-consumer-perf-test``` script use the ```--consumer-property``` argument:
+
+```bash
+❯ oc run kafka-consumer-perf-test -ti --image=$STRIMZI_IMAGE \
+  --rm=true --restart=Never \
+  -- bin/kafka-consumer-perf-test.sh \
+     --broker-list my-cluster-kafka-bootstrap:9092 \
+     --topic my-topic-sample \
+     --from-latest --messages 100000 --print-metrics --show-detailed-stats \
+     --consumer-property bootstrap.servers=my-cluster-kafka-bootstrap:9092 \
+     --consumer-property security.protocol=SASL_PLAINTEXT \
+     --consumer-property sasl.mechanism=SCRAM-SHA-512 \
+     --consumer-property "sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=StrimziIsTheBest;"
 ```
 
 ## Rolling Updates
@@ -178,7 +208,7 @@ ACLs to read from a topic from an specific consumer group:
           name: consumer-group
           patternType: literal
         operation: Read
-		host: "*"
+        host: "*"
 ```
 
 ACLs to write messages into a topic:

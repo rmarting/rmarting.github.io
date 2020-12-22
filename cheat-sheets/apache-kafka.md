@@ -80,7 +80,7 @@ Execute topics reassignment:
 
 ```bash
 ❯ ./bin/kafka-reassign-partitions.sh --execute \
-  --bootstrap-server=localhost:9092 --zookeeper=locahost:2181 \
+  --bootstrap-server=localhost:9092 --zookeeper=localhost:2181 \
   --broker-list 0,1,2 --topics-to-move-json-file ./reassignment-topics.json
 ```
 
@@ -124,11 +124,13 @@ sasl.mechanism=SCRAM-SHA-512
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=passw0rd;
 ```
 
+**NOTE:** The latest semicolon in the ```sasl.jaas.config``` property is mandatory.
+
 Sample command:
 
 ```bash
 ❯ ./bin/kafka-console-producer.sh --bootstrap-server localhost:9092 \
-  --topic monitor.logs.sample-topic \
+  --topic sample-topic \
   --producer-property security.protocol=SASL_PLAINTEXT \
   --producer-property sasl.mechanism=SCRAM-SHA-512 \
   --producer-property "sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username=user password=passw0rd;"
@@ -172,8 +174,8 @@ Sample command:
 
 ```bash
 ❯ ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
-  --topic monitor.logs.amqstreams \
-  --from-begining \
+  --topic sample-topic \
+  --from-beginning \
   --max-messages 1 \
   --consumer-property security.protocol=SASL_PLAINTEXT \
   --consumer-property sasl.mechanism=SCRAM-SHA-512 \
@@ -182,7 +184,7 @@ Sample command:
 
 ## Consumer Group Management
 
-* Listing Consumer Groups
+* Listing Consumer Groups:
 
 ```bash
 ❯ ./bin/kafka-consumer-groups.sh --list \
@@ -196,4 +198,39 @@ Sample command:
 ❯ ./bin/kafka-consumer-groups.sh --describe --group sample-consumer \
   --bootstrap-server localhost:9092 \
   --command-config ./config/consumer.properties
+```
+
+### Reset Consumer Group
+
+From time to time you need to reset the consumer groups to advance or rewind messages. The following
+commands help you to do it:
+
+* Advance to the latest offset of a consumer group:
+
+```bash
+❯ ./bin/kafka-consumer-groups.sh --reset-offsets --to-latest --execute \
+  --topic sample-topic \ 
+  --group sample-consumer \
+  --bootstrap-server localhost:9092 \
+  --command-config ./config/consumer.properties  
+```
+
+* Rewind to the beginning:
+
+```bash
+❯ ./bin/kafka-consumer-groups.sh --reset-offsets --to-earliest --execute \
+  --topic sample-topic \ 
+  --group sample-consumer \
+  --bootstrap-server localhost:9092 \
+  --command-config ./config/consumer.properties  
+```
+
+* Move to an specific offset (e.g: 100):
+
+```bash
+❯ ./bin/kafka-consumer-groups.sh --reset-offsets --to-offset 100 --execute \
+  --topic sample-topic \ 
+  --group sample-consumer \
+  --bootstrap-server localhost:9092 \
+  --command-config ./config/consumer.properties  
 ```
