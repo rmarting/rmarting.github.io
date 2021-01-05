@@ -16,5 +16,13 @@ access to my published articles:
 * [How to integrate a remote Red Hat AMQ 7 cluster on Red Hat JBoss EAP 7](https://developers.redhat.com/blog/2018/12/06/how-to-integrate-a-remote-red-hat-amq-7-cluster-on-red-hat-jboss-eap-7/)
 * [Monitoring Red Hat AMQ 7 with the jmxtrans agent](https://developers.redhat.com/blog/2018/06/06/monitoring-red-hat-amq-7-with-the-jmxtrans-agent/)
 * [Scaling AMQ 7 Brokers with AMQ Interconnect](https://developers.redhat.com/blog/2018/05/17/scaling-amq-7-brokers-with-amq-interconnect/)
-* [Author in Red Hat Developers](https://developers.redhat.com/blog/author/rmartin/)
-* [Presentations on SlideShare](https://www2.slideshare.net/jromanmartin/presentations)
+
+You could find my articles in the following content sites:
+
+* [Red Hat Developer](https://developers.redhat.com/blog/author/rmartin/)
+* [SlideShare](https://www2.slideshare.net/jromanmartin/presentations)* 
+* [DZone](https://dzone.com/users/4490698/jromanmartin.html)
+* [Dev](https://dev.to/rmarting)
+* [diff.blog](https://diff.blog/rmarting/)
+
+I hope you could find them useful.
