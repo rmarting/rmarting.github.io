@@ -20,7 +20,7 @@ access to my published articles:
 You could find my articles in the following content sites:
 
 * [Red Hat Developer](https://developers.redhat.com/blog/author/rmartin/)
-* [SlideShare](https://www2.slideshare.net/jromanmartin/presentations)* 
+* [SlideShare](https://www2.slideshare.net/jromanmartin/presentations)
 * [DZone](https://dzone.com/users/4490698/jromanmartin.html)
 * [Dev](https://dev.to/rmarting)
 * [diff.blog](https://diff.blog/rmarting/)
