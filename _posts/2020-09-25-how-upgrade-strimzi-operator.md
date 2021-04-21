@@ -14,7 +14,7 @@ tags:
 - Red Hat AMQ Streams
 ---
 
-[Operator Lifecycle Manager (OLM)]((https://docs.openshift.com/container-platform/4.5/operators/understanding_olm/olm-understanding-olm.html))
+[Operator Lifecycle Manager (OLM)](https://docs.openshift.com/container-platform/4.5/operators/understanding_olm/olm-understanding-olm.html)
 helps users install, update, and manage the lifecycle of all Operators and their associated
 services running across their clusters. It is part of the [Operator Framework](https://github.com/operator-framework),
 an open source toolkit designed to manage Kubernetes native applications (Operators) in
@@ -39,7 +39,7 @@ the strategies to upgrade the Apache Kafka cluster version.
 ## Operator Subscription
 
 To deploy the Strimzi Operators only to inspect a namespace (*namespaced scope*), we need to use
-an [OperatorGroup]((https://docs.openshift.com/container-platform/4.5/operators/understanding_olm/olm-understanding-operatorgroups.html)).
+an [OperatorGroup](https://docs.openshift.com/container-platform/4.5/operators/understanding_olm/olm-understanding-operatorgroups.html).
 An ```OperatorGroup``` is an OLM resource that provides multitenant configuration to OLM-installed Operators.
 
 This is a definition for manage operators in ```myproject``` namespace:
@@ -249,11 +249,13 @@ to the next version.
 
 The upgrade pathway for Strimzi Operator versions starting from ```v0.17.0```:
 
-```v0.17.0``` -> ```v0.18.0``` -> ```v0.19.0```
+```v0.17.0``` -> ```v0.18.0``` -> ```v0.19.0``` -> ```vX.Y.Z```
 
 In the case of Red Hat AMQ Streams starting from ```v1.4.0``` version is:
 
-```v1.4.0``` -> ```v1.4.1``` -> ```v1.5.0``` -> ```v1.5.1``` -> ```v1.5.2``` -> ```v1.5.3```
+```v1.4.0``` -> ```v1.4.1``` -> ```v1.5.0``` -> ```v1.5.1``` -> ```v1.5.2``` -> ```v1.5.3``` -> ```vX.Y.Z```
+
+**NOTE**: This list is not updated to the latest versions.
 
 ## References
 
