@@ -6,10 +6,17 @@ layout: main
   <div class="page-content">
     {% if page.img %}
     <div class="page-cover-image">
-      <figure>
+      <figure>        
         <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
         {% if page.fig-caption %}
           <figcaption>{{page.fig-caption}}</figcaption>
+        {% endif %}
+        {% if page.fig-copy %}
+        <span class="page-image-copy">
+          Photo 
+          by <a href="{{page.fig-author-link}}">{{page.fig-author}}</a> 
+          on <a href="{{page.fig-gallery-link}}">{{page.fig-gallery}}</a>
+        </span>
         {% endif %}
       </figure>
     </div><!-- End Page Cover Image -->

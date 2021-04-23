@@ -6,6 +6,12 @@ date:        2020-10-05 09:00:00 +0200
 toc:         false
 comments:    true
 img:         cheat-sheet.jpg
+fig-caption: Blogging
+fig-copy:    true
+fig-author:       Pixabay
+fig-author-link:  https://www.pexels.com/@pixabay
+fig-gallery:      Pexels
+fig-gallery-link: https://www.pexels.com/
 tags:
 - How-to
 - Cheat Sheet

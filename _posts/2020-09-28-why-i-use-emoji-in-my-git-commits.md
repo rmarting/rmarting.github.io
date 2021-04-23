@@ -5,6 +5,12 @@ date:       2020-09-28 08:00
 toc:        true
 comments:   true
 img:        git-merge.jpg
+fig-caption: Git
+fig-copy:    true
+fig-author:       Markus Spiske
+fig-author-link:  https://www.pexels.com/@markusspiske
+fig-gallery:      Pexels
+fig-gallery-link: https://www.pexels.com/
 tags: 
 - How-to
 - git

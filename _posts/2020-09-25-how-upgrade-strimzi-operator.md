@@ -5,6 +5,12 @@ date:       2020-09-25 15:00
 toc:        true
 comments:   true
 img:        how-to-vr.jpg
+fig-caption: Developing
+fig-copy:    true
+fig-author:       ThisIsEngineering
+fig-author-link:  https://www.pexels.com/@thisisengineering
+fig-gallery:      Pexels
+fig-gallery-link: https://www.pexels.com/
 tags:
 - How-to
 - kubernetes
