@@ -2,7 +2,7 @@
 layout:    post
 title:     Meetups
 permalink: /meetups/
-comments:  false
+comments:  true
 ---
 
 From time to time I give presentations in meetups, conferences or user groups
