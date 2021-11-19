@@ -186,7 +186,7 @@ The action combinated of all of them, using a set of internal topics,
 executes this complex process of migrating and synchronizing both
 Kafka clusters.
 
-## Red Hat AMQ Streams Operators make migrations happier
+## Strimzi Operators make migrations happier
 
 Operating an Apache Kafka system with all these components in an
 OpenShift environment sounds like a huge and complex activity, however
@@ -194,7 +194,7 @@ the reality is that is very easy thanks to the powerful
 [Kubernetes Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 provided by the great community of [Strimzi](https://strimzi.io/).
 
-Red Hat AMQ Streams provides a full list of operators to help streamline
+Strimzi provides a full list of operators to help streamline
 the installation, configuration, and maintenance operations for OpenShift
 platforms. Thanks to these operators we could manage this complex migration
 scenario with a small few resources to achieve our goals.
