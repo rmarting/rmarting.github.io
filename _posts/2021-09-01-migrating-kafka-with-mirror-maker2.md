@@ -86,12 +86,12 @@ clients of OpenShift, if it is not already exposed. More info
 user must have the right grants to consume data from topics and create
 topics. It could be a good recommendation to define as a super-user. More
 info [here](https://strimzi.io/docs/operators/latest/using.html#super_users).
-    2.1. Get or extract certificates and migration user credentials,
+    * Get or extract certificates and migration user credentials,
     they are needed later.
 3. Deploy new Apache Kafka cluster in target OpenShift platform. This
 new cluster should have the same topology as the original
 one (# brokers, resources, …) to have an 1-1 scenario.
-    3.1 *Optionally* we could deploy a higher version of Kafka. Applications
+    * *Optionally* we could deploy a higher version of Kafka. Applications
     migrated **must** be aligned to the Kafka API declared, otherwise
     Apache Kafka brokers will have to perform down-conversion
     continuously (not desirable as it will impact in the performance)
