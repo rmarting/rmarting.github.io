@@ -236,10 +236,9 @@ demonstrates how the different components could work
 together and resolve the main requirements of the use
 case. You could find it here:
 
-[https://github.com/rmarting/amq-streams-migration-demo](https://github.com/rmarting/amq-streams-migration-demo)
+[https://github.com/rmarting/strimzi-migration-demo](https://github.com/rmarting/strimzi-migration-demo)
 
-We are open to get feedback, comments and improvements
-of this use case.
+We are open to get feedback, comments and improvements of this use case.
 
 ### Greetings
 
