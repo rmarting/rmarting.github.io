@@ -156,11 +156,11 @@ with Apache Kafka. It means a small set of changes.
 
 The result of this migration is available [here](https://github.com/rmarting/kafka-clients-sb-sample/tree/feature/quarkus-edition).
 
-This new application starts in 1.3 seconds:
+This new application starts in less of 2 seconds:
 
 ```text
 Dec 03, 2021 9:51:17 AM io.quarkus.bootstrap.runner.Timing printStartupTime
-INFO: kafka-clients-sb-sample 3.0.0-SNAPSHOT on JVM (powered by Quarkus 1.13.7.Final) started in 1.387s. Listening on: http://0.0.0.0:8181
+INFO: kafka-clients-sb-sample 3.0.0-SNAPSHOT on JVM (powered by Quarkus 1.13.7.Final) started in 1.887s. Listening on: http://0.0.0.0:8181
 ```
 
 ## Refactoring to Standard Libraries and Quarkus Extensions
@@ -209,10 +209,11 @@ with Apache Kafka. It means a small set of changes.
 
 The result of this refactoring is available [here](https://github.com/rmarting/kafka-clients-quarkus-sample).
 
-This application starts in less of 2 seconds:
+This application starts in 1.4 seconds:
 
 ```text
-2020-09-24 08:44:13,484 INFO  [io.quarkus] (main) kafka-clients-quarkus-sample 1.0.0-SNAPSHOT on JVM (powered by Quarkus 1.8.1.Final) started in 1.412s. Listening on: http://0.0.0.0:8181
+Dec 03, 2021 10:21:17 AM io.quarkus.bootstrap.runner.Timing printStartupTime
+INFO: kafka-clients-sb-sample 3.0.0-SNAPSHOT on JVM (powered by Quarkus 1.13.7.Final) started in 1.387s. Listening on: http://0.0.0.0:8181
 ```
 
 ## Lessons Learned
@@ -245,7 +246,8 @@ idea about the performance capabilities of Quarkus:
 | Implementation | Startup |
 |---|---|
 | Spring Boot | 5 seconds |
-| Quarkus extensions for Spring | 2 seconds :rocket: |
+| Quarkus extensions for Spring | 1.7 seconds :rocket: |
+| Quarkus | 1.4 seconds :rocket: |
 | Quarkus Native | 0.042 seconds :rocket::rocket: |
 
 There is a list of other components not covered (e.g: testing, JPA,
