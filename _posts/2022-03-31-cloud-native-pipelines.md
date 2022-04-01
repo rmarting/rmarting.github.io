@@ -242,3 +242,11 @@ a sample [GitHub repository](https://github.com/rmarting/ocp-pipelines-demo) wit
 
 From here, only your imagination, use cases and Tekton could help you to create amazing pipelines in
 a easy, descriptive and simple way. 
+
+And if you want to dive deeper, don't miss to check the following references:
+
+* [Tekton Documentation](https://tekton.dev/docs/)
+* [Pipelines as Code](https://pipelinesascode.com/), an opinionated CI based on OpenShift Pipelines / Tekton.
+* [Tekton Chains](https://github.com/tektoncd/chains) for supply chain security.
+
+Happy cloud-native pipelining :smiley:!!!
