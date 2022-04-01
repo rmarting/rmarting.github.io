@@ -8,7 +8,7 @@ comments:  true
 From time to time I give presentations in meetups, conferences or user groups
 from different topics. Here you could access to the published presentations:
 
-* [Becoming a happier Event-Driven Developer. From Zero to Hero :: Red Hat Summmit Connect 2021 (Virtual)](https://www.redhat.com/es/summit/connect/emea/iberia?sc_cid=7013a000002phYfAAI#agenda). Video and slides available on-demand.
+* [Becoming a happier Event-Driven Developer. From Zero to Hero :: Red Hat Summit Connect 2021 (Virtual)](https://www.redhat.com/es/summit/connect/emea/iberia?sc_cid=7013a000002phYfAAI#agenda). Video and slides available on-demand.
 * [Da el salto al siguiente nivel - Arquitecturas Orientadas a Eventos con AMQ Streams y OpenShift Serverless :: Red Hat Webinar (Virtual)](https://events.redhat.com/profile/form/index.cfm?PKformID=0x386233abcd). Video in Spanish available on-demand.
 * [Dê o salto para o próximo nível - Arquiteturas Orientadas a Eventos com AMQ Streams e OpenShift Serverless :: Red Hat Webbinar (Virtual)](https://events.redhat.com/profile/form/index.cfm?PKformID=0x398659abcd) Video in English available on-demand.
 * [Red Hat Forum España 2019 :: Madrid :: Open Innovation Labs Booth](https://events.redhat.com/profile/form/index.cfm?PKformID=0x67109abcd)
@@ -22,3 +22,7 @@ from different topics. Here you could access to the published presentations:
 * [OpenShift Spain Meetup :: Madrid :: Application modernization and migration](https://www2.slideshare.net/jromanmartin/openshift-meetup-application-modernization-and-migration)
 * [Red Hat Summit 2017 :: Boston :: How we deployed 1000 applications in a single Red Hat JBoss EAP Domain](https://www.redhat.com/files/summit/session-assets/2017/S104758-martin-gil.pdf)
 * [Presentations on SlideShare](https://www2.slideshare.net/jromanmartin/presentations)
+
+I am open to give a talk in your community, meetup, group, ... about any topic such as Developer Experience, Architectures,
+Design Patters, Integration, Messaging, Software Delivery Life Cycle, Agile, DevOps, ... don't feel shy and contact with me.
+I am looking forward to hearing, collaborating with you.
