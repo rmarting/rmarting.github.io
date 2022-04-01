@@ -9,7 +9,7 @@ tags:
 - Blogs
 ---
 
-On March, 4th 2020 it was the last time I travelled by business and I visited an airport :airplane:,
+On March, 4th 2020 it was the last time I traveled by business and I visited an airport :airplane:,
 a customer office :office: and I met on site with other colleagues. So, on March, 5th 2021 I am
 celebrating my first working-from-home anniversary. Here is my story on this period of time :calendar:.
 
@@ -20,7 +20,7 @@ When I joined to [Red Hat Consulting](https://www.redhat.com/en/services/consult
 of the key points for me was to have the opportunity to work remotely for customers and other teams. It was
 something that I was looking for many times and Red Hat was the first company that allowed me completely. 
 
-It is true that working in Consulting, travelling is a hot topic ... 
+It is true that working in Consulting, traveling is a hot topic ... 
 [here :bird:](https://twitter.com/jromanmartin/status/1035834830536228865) you have a
 point of view of that (of course, it is not updated, the list is now longer).
 

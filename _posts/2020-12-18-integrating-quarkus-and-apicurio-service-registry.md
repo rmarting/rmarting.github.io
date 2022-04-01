@@ -316,7 +316,7 @@ event-driven architecture. Thanks all these components you could get the followi
 * Define a governance model in your data schemas (versions, rules, validations).
 * Easy integration with client applications and components.
 
-You could invest and analyse more to adapt or build your event-drive architecture with these components in the following reference links.
+You could invest and analyze more to adapt or build your event-drive architecture with these components in the following reference links.
 
 * [Getting started with Service Registry](https://www.apicur.io/registry/docs/apicurio-registry/1.3.3.Final/index.html)
 * [First look at the new Apicurio Registry UI and Operator](https://developers.redhat.com/blog/2020/06/11/first-look-at-the-new-apicurio-registry-ui-and-operator/)
