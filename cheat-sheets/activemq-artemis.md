@@ -500,7 +500,7 @@ MessageConsumer consumer = session.createConsumer(queueDestination);
 
 More details in [Addressing Model](https://activemq.apache.org/components/artemis/documentation/latest/address-model.html).
 
-## Clustered Messages Grouping
+## Clustered Message Grouping
 
 This feature allows to process messages with a particular group ID in the same order by the
 consumers. Each clustered broker therefore uses a grouping handler to manage the complexity of routing
@@ -547,7 +547,7 @@ To consume grouped messages:
   --verbose
 ```
 
-More details in [Clustered Messaging Grouping](https://activemq.apache.org/components/artemis/documentation/latest/message-grouping.html)
+More details in [Clustered Message Grouping](https://activemq.apache.org/components/artemis/documentation/latest/message-grouping.html)
 
 ## AMQP Secured Connection
 
