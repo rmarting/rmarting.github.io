@@ -11,6 +11,15 @@ tags:
 - tutorial
 ---
 
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+
+**There is an official version of this Cheat Sheet for Red Hat AMQ Broker
+on the Red Hat Developers portal.**
+
+**Don't miss the chance to get it [here](https://developers.redhat.com/cheat-sheets/red-hat-amq-broker-cheat-sheet).**
+
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+
 [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) is a high-performance messaging system
 for highly scalable microservices or asynchronous messaging between different systems.
 
