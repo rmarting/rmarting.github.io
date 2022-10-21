@@ -4,7 +4,7 @@ title:      ":sparkles: How to upgrade Strimzi Operator using the CLI"
 date:       2020-09-25 15:00
 toc:        true
 comments:   true
-img:        how-to-vr.jpg
+img:        how-to-vr.avif
 fig-caption: Developing
 fig-copy:    true
 fig-author:       ThisIsEngineering

@@ -4,7 +4,7 @@ title:      ":zap: Connecting Apicurio Registry with secured Strimzi clusters"
 date:       2020-12-08 09:15
 toc:        true
 comments:   true
-img:        apicurio-strimzi.png
+img:        apicurio-strimzi.avif
 tags: 
 - How-to
 - Apicurio

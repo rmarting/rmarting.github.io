@@ -5,7 +5,7 @@ description: New Minishift Cheat Sheet available for you.
 date:        2020-10-05 09:00:00 +0200
 toc:         false
 comments:    true
-img:         cheat-sheet.jpg
+img:         cheat-sheet.avif
 fig-caption: Blogging
 fig-copy:    true
 fig-author:       Pixabay

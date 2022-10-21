@@ -4,7 +4,7 @@ title:      "Migrating Kafka clusters with MirrorMaker2 and Strimzi"
 date:       2021-11-19 00:00
 toc:        false
 comments:   true
-img:        servers-data-center.jpg
+img:        servers-data-center.avif
 fig-caption: Server racks on Data Center
 fig-copy:    true
 fig-author:       Brett Sayless

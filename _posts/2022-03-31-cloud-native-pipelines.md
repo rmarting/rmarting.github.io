@@ -4,7 +4,7 @@ title:       ":rocket: Cloud Native CICD Pipelines in OpenShift"
 date:        2022-04-01 00:00
 toc:         true
 comments:    true
-img:         cloud-containers-by-tekton.jpg
+img:         cloud-containers-by-tekton.avif
 fig-caption:      Cloud containers by Tekton
 fig-copy:         true
 fig-author:       Oliver Halls
@@ -167,7 +167,7 @@ status:
 OpenShift provides a great dashboard to browse and inspect the Tasks and TasksRun
 
 {:refdef: style="text-align: center;"}
-[![](/images/ocp-pipelines/ocp-tasks-dashboard.png "OpenShift Tasks Dashboard")]({{site.url}}/images/ocp-pipelines/ocp-tasks-dashboard.png)
+[![](/images/ocp-pipelines/ocp-tasks-dashboard.avif "OpenShift Tasks Dashboard")]({{site.url}}/images/ocp-pipelines/ocp-tasks-dashboard.avif)
 {:refdef}
 
 ### Pipelines
@@ -183,7 +183,7 @@ This [example](https://github.com/rmarting/ocp-pipelines-demo/blob/main/05-say-t
 give you a general view of a pipeline. This pipeline should be represented as:
 
 {:refdef: style="text-align: center;"}
-[![](/images/ocp-pipelines/ocp-pipeline-flow.png "Pipeline Flow")]({{site.url}}/images/ocp-pipelines/ocp-pipeline-flow.png)
+[![](/images/ocp-pipelines/ocp-pipeline-flow.avif "Pipeline Flow")]({{site.url}}/images/ocp-pipelines/ocp-pipeline-flow.avif)
 {:refdef}
 
 Each `Task` in a `Pipeline` executes as a `Pod` on your OpenShift cluster.
@@ -194,7 +194,7 @@ and outputs is a `PipelineRun`.
 OpenShift provides a great dashboard to browse and inspect the Tasks and TasksRun
 
 {:refdef: style="text-align: center;"}
-[![](/images/ocp-pipelines/ocp-pipelines-dashboard.png "OpenShift Pipelines Dashboard")]({{site.url}}/images/ocp-pipelines/ocp-pipelines-dashboard.png)
+[![](/images/ocp-pipelines/ocp-pipelines-dashboard.avif "OpenShift Pipelines Dashboard")]({{site.url}}/images/ocp-pipelines/ocp-pipelines-dashboard.avif)
 {:refdef}
 
 ### Workspaces

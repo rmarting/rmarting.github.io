@@ -4,7 +4,7 @@ title:      ":tada: ActiveMQ Artemis Cheat Sheet in Red Hat Developers"
 date:       2022-09-03 18:00
 toc:        false
 comments:   true
-img:        red-hat-amq-broker-cheat-sheet.png
+img:        red-hat-amq-broker-cheat-sheet.avif
 fig-caption:      Red Hat AMQ Broker Cheat Sheet
 fig-copy:         true
 fig-author:       Red Hat Developer

@@ -4,7 +4,7 @@ title:       ":rocket: Monorepo, GitOps, CICD and beyond"
 date:        2022-03-25 10:00
 toc:         true
 comments:    true
-img:         how-to.jpg
+img:         how-to.avif
 tags: 
 - How-to
 - Quarkus

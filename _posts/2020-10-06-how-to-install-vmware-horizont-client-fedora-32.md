@@ -4,7 +4,7 @@ title:      ":construction: How to install VMWare Horizon Client in Fedora 32"
 date:       2020-10-06 09:15
 toc:        true
 comments:   true
-img:        fedora-logo.png
+img:        fedora-logo.avif
 tags: 
 - How-to 
 - fedora32
@@ -46,24 +46,24 @@ Extracting VMware Installer...done.
 
 The process will ask for the options to install:
 
-[![](/images/vdi/01-vdi-options.png "WMWare Horizon Client Installation - Options")]({{site.url}}/images/vdi/01-vdi-options.png = 640x680)
+[![](/images/vdi/01-vdi-options.avif "WMWare Horizon Client Installation - Options")]({{site.url}}/images/vdi/01-vdi-options.avif = 640x680)
 
 The summary of options selected:
 
-[![](/images/vdi/02-vdi-summary.png "WMWare Horizon Client Installation - Summary")]({{site.url}}/images/vdi/02-vdi-summary.png = 640x680)
+[![](/images/vdi/02-vdi-summary.avif "WMWare Horizon Client Installation - Summary")]({{site.url}}/images/vdi/02-vdi-summary.avif = 640x680)
 
 When the installation finished, we check "Register and start installed service(s) after the installation" to complete
 the final steps of the installation: 
 
-[![](/images/vdi/03-vdi-finish.png "WMWare Horizon Client Installation - Finished")]({{site.url}}/images/vdi/03-vdi-finish.png = 640x680)
+[![](/images/vdi/03-vdi-finish.avif "WMWare Horizon Client Installation - Finished")]({{site.url}}/images/vdi/03-vdi-finish.avif = 640x680)
 
 The final step of the installation is a scan system to identify that everything is right:
 
-[![](/images/vdi/04-vdi-scan-system.png "WMWare Horizon Client Installation - Scan System")]({{site.url}}/images/vdi/04-vdi-scan-system.png = 640x680)
+[![](/images/vdi/04-vdi-scan-system.avif "WMWare Horizon Client Installation - Scan System")]({{site.url}}/images/vdi/04-vdi-scan-system.avif = 640x680)
 
 Finally, we will have the client installed successfully to connect to the VDI.
 
-[![](/images/vdi/05-vdi-horizon-client.png "WMWare Horizon Client")]({{site.url}}/images/vdi/05-vdi-horizon-client.png = 640x680)
+[![](/images/vdi/05-vdi-horizon-client.avif "WMWare Horizon Client")]({{site.url}}/images/vdi/05-vdi-horizon-client.avif = 640x680)
 
 Have fun with your remote desktop! :computer:
 

@@ -4,7 +4,7 @@ title:      "containers - The GNOME Shell Extension to manage podman containers"
 date:       2020-10-25 10:00:00 +0200
 toc:        true
 comments:   true
-img:        fedora-logo.png
+img:        fedora-logo.avif
 tags: 
 - How-to
 - fedora32
@@ -54,7 +54,7 @@ The menu also showed most of the inspect info :information_source: of the contai
 
 A sample screenshot :camera: of this amazing tool is similar to:
 
-[![](/images/containers-gnome-shell-extension/containers-pod-view.png "container view")]({{site.url}}/imagescontainers-gnome-shell-extension/containers-pod-view.png)
+[![](/images/containers-gnome-shell-extension/containers-pod-view.avif "container view")]({{site.url}}/imagescontainers-gnome-shell-extension/containers-pod-view.avif)
 
 ## Managing containers
 
@@ -89,7 +89,7 @@ CONTAINER ID  IMAGE                             COMMAND  CREATED         STATUS 
 
 These pods will be showed in the shell-menu as:
 
-[![](/images/containers-gnome-shell-extension/containers-list.png "containers list")]({{site.url}}/imagescontainers-gnome-shell-extension/containers-list.png)
+[![](/images/containers-gnome-shell-extension/containers-list.avif "containers list")]({{site.url}}/imagescontainers-gnome-shell-extension/containers-list.avif)
 
 ## Managing pods
 
@@ -148,7 +148,7 @@ podman run --name=kafka_kafka_1 -d --pod=kafka --label io.podman.compose.config-
 
 Now you have an Apache Kafka pod instance up and running :muscle:.  
 
-[![](/images/containers-gnome-shell-extension/containers-pod-kafka-list.png "Pod Apache Kafka list")]({{site.url}}/imagescontainers-gnome-shell-extension/containers-pod-kafka-list.png)
+[![](/images/containers-gnome-shell-extension/containers-pod-kafka-list.avif "Pod Apache Kafka list")]({{site.url}}/imagescontainers-gnome-shell-extension/containers-pod-kafka-list.avif)
 
 ## Summary
 

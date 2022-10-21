@@ -4,7 +4,7 @@ title:      ":rocket: My blog in diff.blog()"
 date:       2020-10-20 22:00
 toc:        true
 comments:   true
-img:        diff-blog.png
+img:        diff-blog.avif
 tags: 
 - Blogs
 - Community

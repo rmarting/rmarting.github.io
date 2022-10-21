@@ -4,7 +4,7 @@ title:      "Blue / Green deployments :rocket: in OpenShift with Eclipse JKube"
 date:       2020-10-23 10:00:00 +0200
 toc:        true
 comments:   true
-img:        eclipse-jkube.png
+img:        eclipse-jkube.avif
 tags: 
 - How-to 
 - OpenShift

@@ -4,7 +4,7 @@ title:      ":zap: Integrating Quarkus with Apicurio Service Registry"
 date:       2020-12-18 09:15
 toc:        true
 comments:   true
-img:        how-to.jpg
+img:        how-to.avif
 tags: 
 - How-to
 - Quarkus
@@ -142,7 +142,7 @@ is not an objective of this article, but something that you could analyze more.
 As soon we published our schema into Service Registry we could manage from the UI as:
 
 {:refdef: style="text-align: center;"}
-[![](/images/apicurio-registry/apicurio-artifact-details.png "Apicurio Service Registry Artifact Details")]({{site.url}}/images/apicurio-registry/apicurio-artifact-details.png)
+[![](/images/apicurio-registry/apicurio-artifact-details.avif "Apicurio Service Registry Artifact Details")]({{site.url}}/images/apicurio-registry/apicurio-artifact-details.avif)
 {: refdef}
 
 ## :rocket: Quarkus, Apache Kafka and Service Registry

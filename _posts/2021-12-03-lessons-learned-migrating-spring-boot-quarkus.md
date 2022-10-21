@@ -4,7 +4,7 @@ title:       ":rocket: Lessons learned migrating Spring Boot to Quarkus"
 date:        2021-12-03 09:15
 toc:         true
 comments:    true
-img:         how-to.jpg
+img:         how-to.avif
 tags: 
 - How-to
 - Quarkus

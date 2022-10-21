@@ -4,7 +4,7 @@ title:      ":rocket: My blog in dev.to"
 date:       2020-12-10 18:00
 toc:        false
 comments:   true
-img:        dev-to.png
+img:        dev-to.avif
 tags: 
 - Blogs
 - Community

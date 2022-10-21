@@ -4,7 +4,7 @@ title:      ":house_with_garden: A year of Working from Home"
 date:       2021-03-05 09:15
 toc:        false
 comments:   true
-img:        working-from-home.jpg
+img:        working-from-home.avif
 tags: 
 - Blogs
 ---
@@ -82,13 +82,13 @@ that it is very important to have a conformable, isolated, clean and open space 
 My space was going from
 
 {:refdef: style="text-align: center;"}
-[![](/images/wfh/how-was-going.jpg "How was going")]({{site.url}}/images/wfh/how-was-going.jpg)
+[![](/images/wfh/how-was-going.avif "How was going")]({{site.url}}/images/wfh/how-was-going.avif)
 {:refdef}
 
 to
 
 {:refdef: style="text-align: center;"}
-[![](/images/wfh/how-is-going.jpg "How is going")]({{site.url}}/images/wfh/how-is-going.jpg)
+[![](/images/wfh/how-is-going.avif "How is going")]({{site.url}}/images/wfh/how-is-going.avif)
 {:refdef}
 
 and now I am very happy with my new space, and my daughter too because now she has a new room. :smile:
@@ -103,7 +103,7 @@ During some months I followed it as another daily routine until the race day. As
 the race for a month as many times as you wanted. After three times I achieved my best personal time :muscle: 
 
 {:refdef: style="text-align: center;"}
-[![](/images/wfh/virtual-half-marathon-madrid-finisher.jpg "Finisher in the Virtual Half Marathon of Madrid")]({{site.url}}/images/wfh/virtual-half-marathon-madrid-finisher.jpg)
+[![](/images/wfh/virtual-half-marathon-madrid-finisher.avif "Finisher in the Virtual Half Marathon of Madrid")]({{site.url}}/images/wfh/virtual-half-marathon-madrid-finisher.avif)
 {:refdef}
 
 Now it is time to define new goals in 2021.
@@ -113,7 +113,7 @@ celebrating in a bar, restaurant or venue; however Red Hat created special virtu
 many gifts and details to celebrate as "usual":
 
 {:refdef: style="text-align: center;"}
-[![](/images/wfh/virtual-events.jpg "Beers to celebrate virtuality")]({{site.url}}/images/wfh/virtual-events.jpg)
+[![](/images/wfh/virtual-events.avif "Beers to celebrate virtuality")]({{site.url}}/images/wfh/virtual-events.avif)
 {:refdef}
 
 
@@ -121,7 +121,7 @@ On the other hand, I celebrated other events with great beers from my friends
 of [Beer Bang of Madrid](https://beerbangmadrid.com/). These resources help me to feel close to my friends and co-workers.
 
 {:refdef: style="text-align: center;"}
-[![](/images/wfh/virtual-beers.jpg "Beers to celebrate virtuality")]({{site.url}}/images/wfh/virtual-beers.jpg)
+[![](/images/wfh/virtual-beers.avif "Beers to celebrate virtuality")]({{site.url}}/images/wfh/virtual-beers.avif)
 {:refdef}
 
 Of course, not everything was fine and I found some topics that make my life not so easy. If I have to choose one, for
