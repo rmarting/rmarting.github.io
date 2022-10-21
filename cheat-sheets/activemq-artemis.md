@@ -52,7 +52,7 @@ Topology based in:
 This diagram shows us this topology:
 
 {:refdef: style="text-align: center;"}
-[![](/images/activemq-artemis/artemis-replicated-journal.png "Artemis Replicated Journal")]({{site.url}}/images/activemq-artemis/artemis-replicated-journal.png)
+[![](/images/activemq-artemis/artemis-replicated-journal.avif "Artemis Replicated Journal")]({{site.url}}/images/activemq-artemis/artemis-replicated-journal.avif)
 {: refdef}
 
 ### Symmetric Cluster with Shared Journal
@@ -65,7 +65,7 @@ Topology based in:
 This diagram shows us this topology:
 
 {:refdef: style="text-align: center;"}
-[![](/images/activemq-artemis/artemis-shared-journal.png "Artemis Shared Journal")]({{site.url}}/images/activemq-artemis/artemis-shared-journal.png)
+[![](/images/activemq-artemis/artemis-shared-journal.avif "Artemis Shared Journal")]({{site.url}}/images/activemq-artemis/artemis-shared-journal.avif)
 {: refdef}
 
 ## Deploying Cluster Topologies
