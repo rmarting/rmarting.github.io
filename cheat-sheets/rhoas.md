@@ -16,6 +16,10 @@ application services from a terminal.
 
 More details, or updated information, please check the GitHub repository [here](https://github.com/redhat-developer/app-services-cli)
 
+To install it, review the
+[Installing and configuring the rhoas CLI](https://github.com/redhat-developer/app-services-guides/tree/main/docs/rhoas/rhoas-cli-installation)
+page.
+
 # Log (in|out)
 
 `rhoas login` Log in to RHOAS
