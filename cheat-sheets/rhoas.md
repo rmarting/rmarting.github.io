@@ -11,7 +11,7 @@ tags:
 - tutorial
 ---
 
-`rhoah` command-line interface (a.k.a Red Hat OpenShift Application Services CLI) can manage your
+`rhoas` command-line interface (a.k.a Red Hat OpenShift Application Services CLI) can manage your
 application services from a terminal.
 
 More details, or updated information, please check the GitHub repository [here](https://github.com/redhat-developer/app-services-cli)
