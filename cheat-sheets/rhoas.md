@@ -296,6 +296,6 @@ Most of the commands includes the following global flags
 # Full Command API
 
 The full list of commands, with options, flags, and examples is available
-from the [App Services CLI Website](https://appservices.tech).
+from the [App Services CLI Website](https://redhat-developer.github.io/app-services-website/cliref/rhoas).
 
 Enjoy it!!! :tada:
