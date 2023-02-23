@@ -15,7 +15,7 @@ tags:
 
 **There is an official version of this Cheat Sheet for Red Hat Application Services on the Red Hat Developers portal.**
 
-**Don't miss the chance to get it [here]([https://developers.redhat.com/cheat-sheets/red-hat-amq-broker-cheat-sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-application-services-cheat-sheet)).**
+**Don't miss the chance to get it [here](https://developers.redhat.com/cheat-sheets/red-hat-openshift-application-services-cheat-sheet).**
 
 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
 
