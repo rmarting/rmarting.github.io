@@ -5,38 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## v1.1.10 - 2023-06-12
-
-### What Changed 👀
-
-- No changes
-
-**Full Changelog**: https://github.com/rmarting/rmarting.github.io/compare/v1.1.9...v1.1.10
-
-## v1.1.8 - 2023-06-12
-
-### What Changed 👀
-
-- No changes
-
-**Full Changelog**: https://github.com/rmarting/rmarting.github.io/compare/v1.1.7...v1.1.8
-
-## v1.1.5 - 2023-06-12
-
-### What Changed 👀
-
-- No changes
-
-**Full Changelog**: https://github.com/rmarting/rmarting.github.io/compare/v1.1.4...v1.1.5
-
-## v1.1.3 - 2023-06-12
-
-### What Changed 👀
-
-- No changes
-
-**Full Changelog**: https://github.com/rmarting/rmarting.github.io/compare/v1.1.2...v1.1.3
-
 ## v1.1.1 - 2023-06-12
 
 ### What Changed 👀
