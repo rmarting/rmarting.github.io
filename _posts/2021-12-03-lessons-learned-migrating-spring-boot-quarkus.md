@@ -1,6 +1,8 @@
 ---
 layout:      post
 title:       ":rocket: Lessons learned migrating Spring Boot to Quarkus"
+subtitle:    My thoughts and impressions after the migration from Spring Boot to Quarkus.
+description: My thoughts and impressions after the migration from Spring Boot to Quarkus.
 date:        2021-12-03 09:15
 toc:         true
 comments:    true

@@ -1,9 +1,11 @@
 ---
-layout:     post
-title:      ":construction: How to install VMWare Horizon Client in Fedora 32"
-date:       2020-10-06 09:15
-toc:        true
-comments:   true
+layout:      post
+title:       ":construction: How to install VMWare Horizon Client in Fedora 32"
+subtitle:    Tutorial to use this client in a Fedora Workstation and connect to remote environments.
+description: Tutorial to use this client in a Fedora Workstation and connect to remote environments.
+date:        2020-10-06 09:15
+toc:         true
+comments:    true
 img:        fedora-logo.avif
 tags: 
 - How-to 

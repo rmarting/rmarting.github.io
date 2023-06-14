@@ -1,6 +1,7 @@
 ---
 layout:      post
 title:       ":tada: New Minishift Cheat Sheet!"
+subtitle:    New Minishift Cheat Sheet available for you.
 description: New Minishift Cheat Sheet available for you.
 date:        2020-10-05 09:00:00 +0200
 toc:         false

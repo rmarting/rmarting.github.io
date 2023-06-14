@@ -1,7 +1,8 @@
 ---
 layout:      post
 title:       "📛 Improving a GitHub Repo!"
-description: Improve a GitHub repo with badges and automatic releasing!!!
+subtitle:    Tutorial to improve a GitHub repo with badges and automatic releasing process.
+description: Tutorial to improve a GitHub repo with badges and automatic releasing process.
 date:        2023-06-12 09:00:00 +0200
 toc:         true
 comments:    true

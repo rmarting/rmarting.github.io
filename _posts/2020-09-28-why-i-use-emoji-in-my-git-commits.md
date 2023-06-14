@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      ":bulb: Why I use emojis in my Git commits"
-date:       2020-09-28 08:00
-toc:        true
-comments:   true
-img:        git-merge.avif
+layout:      post
+title:       ":bulb: Why I use emojis in my Git commits"
+subtitle:    Why not? My personal way to commit using emojis and enrich any repository.
+description: Why not? My personal way to commit using emojis and enrich any repository.
+date:        2020-09-28 08:00
+toc:         true
+comments:    true
+img:         git-merge.avif
 fig-caption: Git
 fig-copy:    true
 fig-author:       Markus Spiske

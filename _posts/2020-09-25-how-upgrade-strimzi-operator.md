@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      ":sparkles: How to upgrade Strimzi Operator using the CLI"
-date:       2020-09-25 15:00
-toc:        true
-comments:   true
-img:        how-to-vr.avif
+layout:      post
+title:       ":sparkles: How to upgrade Strimzi Operator using the CLI"
+subtitle:    A simple guide to upgrade the Strimzi operator using the kubernetes API.
+description: A simple guide to upgrade the Strimzi operator using the kubernetes API.
+date:        2020-09-25 15:00
+toc:         true
+comments:    true
+img:         how-to-vr.avif
 fig-caption: Developing
 fig-copy:    true
 fig-author:       ThisIsEngineering

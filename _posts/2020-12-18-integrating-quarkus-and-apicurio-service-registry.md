@@ -1,9 +1,11 @@
 ---
-layout:     post
-title:      ":zap: Integrating Quarkus with Apicurio Service Registry"
-date:       2020-12-18 09:15
-toc:        true
-comments:   true
+layout:      post
+title:       ":zap: Integrating Quarkus with Apicurio Service Registry"
+subtitle:    A simple tutorial to integrate Quarkus with an external schema registry managed by Apicurio.
+description: A simple tutorial to integrate Quarkus with an external schema registry managed by Apicurio.
+date:        2020-12-18 09:15
+toc:         true
+comments:    true
 img:        how-to.avif
 tags: 
 - How-to

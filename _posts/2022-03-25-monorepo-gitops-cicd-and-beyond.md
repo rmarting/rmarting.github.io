@@ -1,6 +1,8 @@
 ---
 layout:      post
 title:       ":rocket: Monorepo, GitOps, CICD and beyond"
+subtitle:    Sample about how to integrate all these concepts in a single repository.
+description: Sample about how to integrate all these concepts in a single repository.
 date:        2022-03-25 10:00
 toc:         true
 comments:    true

@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      "containers - The GNOME Shell Extension to manage podman containers"
-date:       2020-10-25 10:00:00 +0200
-toc:        true
-comments:   true
-img:        fedora-logo.avif
+layout:      post
+title:       "containers - The GNOME Shell Extension to manage podman containers"
+subtitle:    Using this great GNOME Shell Extension to manage podman and docker containers.
+description: Using this great GNOME Shell Extension to manage podman and docker containers.
+date:        2020-10-25 10:00:00 +0200
+toc:         true
+comments:    true
+img:         fedora-logo.avif
 tags: 
 - How-to
 - fedora32

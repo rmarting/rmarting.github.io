@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      "Blue / Green deployments :rocket: in OpenShift with Eclipse JKube"
-date:       2020-10-23 10:00:00 +0200
-toc:        true
-comments:   true
-img:        eclipse-jkube.avif
+layout:      post
+title:       "Blue / Green deployments :rocket: in OpenShift with Eclipse JKube"
+subtitle:    Learn how to use the amazing Eclipse JKube with this advanced deployment topology.
+description: Learn how to use the amazing Eclipse JKube with this advanced deployment topology.
+date:        2020-10-23 10:00:00 +0200
+toc:         true
+comments:    true
+img:         eclipse-jkube.avif
 tags: 
 - How-to 
 - OpenShift
