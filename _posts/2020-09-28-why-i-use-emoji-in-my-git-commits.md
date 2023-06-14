@@ -39,7 +39,7 @@ the experience as a user is more clear, visual, fun and easy to follow. I used i
 
 Your repo could have a look and feel similar to: 
 
-[![](/images/20200928/git-repository-layout.avif "Git Repository")]({{site.url}}/images/20200928/git-repository-layout.avif)
+[![](/images/2020/09/gh-emoji/git-repository-layout.avif "Git Repository")]({{site.url}}/images/2020/09/gh-emoji/git-repository-layout.avif)
 
 Nice, right?
 
@@ -85,7 +85,7 @@ Carlos Cuesta. This is a simple, and easy CLI to add emojis in your commits. Thi
 includes helpers, searches to choose the right emoji before your commit or when your are committing:
 
 {:refdef: style="text-align: center;"}
-[![](/images/20200928/gitmoji-commit.avif "gitmoji commit")]({{site.url}}/images/20200928/gitmoji-commit.avif)
+[![](/images/2020/09/gh-emoji/gitmoji-commit.avif "gitmoji commit")]({{site.url}}/images/2020/09/gh-emoji/gitmoji-commit.avif)
 {: refdef}
 
 The [git repo](https://github.com/carloscuesta/gitmoji) has everything you need to start to use it. 
