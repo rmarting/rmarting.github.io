@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      "Migrating Kafka clusters with MirrorMaker2 and Strimzi"
-date:       2021-11-19 00:00
-toc:        false
-comments:   true
-img:        servers-data-center.avif
+layout:      post
+title:       "Migrating Kafka clusters with MirrorMaker2 and Strimzi"
+subtitle:    Migrate Kafka clusters using MirrorMaker2 provided by Strimzi is more easy than never. This post explains it!.
+description: Migrate Kafka clusters using MirrorMaker2 provided by Strimzi is more easy than never. This post explains it!.
+date:        2021-11-19 00:00
+toc:         false
+comments:    true
+img:         servers-data-center.avif
 fig-caption: Server racks on Data Center
 fig-copy:    true
 fig-author:       Brett Sayless

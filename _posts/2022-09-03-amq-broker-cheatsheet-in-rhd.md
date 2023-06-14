@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      ":tada: ActiveMQ Artemis Cheat Sheet in Red Hat Developers"
-date:       2022-09-03 18:00
-toc:        false
-comments:   true
-img:        red-hat-amq-broker-cheat-sheet.avif
+layout:      post
+title:       ":tada: ActiveMQ Artemis Cheat Sheet in Red Hat Developers"
+subtitle:    A new cheat sheet available in Red Hat Developers. Sharing is caring!!!
+description: A new cheat sheet available in Red Hat Developers. Sharing is caring!!!
+date:        2022-09-03 18:00
+toc:         false
+comments:    true
+img:         red-hat-amq-broker-cheat-sheet.avif
 fig-caption:      Red Hat AMQ Broker Cheat Sheet
 fig-copy:         true
 fig-author:       Red Hat Developer

@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      ":rocket: My blog in dev.to"
-date:       2020-12-10 18:00
-toc:        false
-comments:   true
-img:        dev-to.avif
+layout:      post
+title:       ":rocket: My blog in dev.to"
+subtitle:    Sharing is caring!!!
+description: Sharing is caring!!!
+date:        2020-12-10 18:00
+toc:         false
+comments:    true
+img:         dev-to.avif
 tags: 
 - Blogs
 - Community

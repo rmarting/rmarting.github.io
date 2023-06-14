@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      ":zap: Connecting Apicurio Registry with secured Strimzi clusters"
-date:       2020-12-08 09:15
-toc:        true
-comments:   true
-img:        apicurio-strimzi.avif
+layout:      post
+title:       ":zap: Connecting Apicurio Registry with secured Strimzi clusters"
+subtitle:    Tutorial to connect an Apicurio Registry with a secured Kafka cluster managed by the Strimzi operator.
+description: Tutorial to connect an Apicurio Registry with a secured Kafka cluster managed by the Strimzi operator.
+date:        2020-12-08 09:15
+toc:         true
+comments:    true
+img:         apicurio-strimzi.avif
 tags: 
 - How-to
 - Apicurio

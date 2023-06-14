@@ -1,6 +1,7 @@
 ---
 layout:      post
 title:       ":tada: New Red Hat OpenShift Application Services Cheat Sheet!"
+subtitle:    New Red Hat OpenShift Application Services Cheat Sheet available for you.
 description: New Red Hat OpenShift Application Services Cheat Sheet available for you.
 date:        2022-10-28 09:00:00 +0200
 toc:         false

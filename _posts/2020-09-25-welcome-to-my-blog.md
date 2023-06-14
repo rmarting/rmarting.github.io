@@ -1,6 +1,7 @@
 ---
 layout:      post
 title:       ":tada: Welcome to my Blog!"
+subtitle:    This is my first post in my personal blog.
 description: This is my first post in my personal blog.
 date:        2020-09-25 09:00:00 +0200
 toc:         false

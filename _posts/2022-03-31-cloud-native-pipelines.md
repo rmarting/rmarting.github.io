@@ -1,6 +1,8 @@
 ---
 layout:      post
 title:       ":rocket: Cloud Native CICD Pipelines in OpenShift"
+subtitle:    Overview of cloud native CICD pipelines provided by Tekton running on top of OpenShift.
+description: Overview of cloud native CICD pipelines provided by Tekton running on top of OpenShift.
 date:        2022-04-01 00:00
 toc:         true
 comments:    true

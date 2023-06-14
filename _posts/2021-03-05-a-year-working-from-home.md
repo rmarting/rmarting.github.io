@@ -1,10 +1,12 @@
 ---
-layout:     post
-title:      ":house_with_garden: A year of Working from Home"
-date:       2021-03-05 09:15
-toc:        false
-comments:   true
-img:        working-from-home.avif
+layout:      post
+title:       ":house_with_garden: A year of Working from Home"
+subtitle:    My thoughts about my first year fully-working remotely.
+description: My thoughts about my first year fully-working remotely.
+date:        2021-03-05 09:15
+toc:         false
+comments:    true
+img:         working-from-home.avif
 tags: 
 - Blogs
 ---
