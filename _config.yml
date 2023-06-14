@@ -32,6 +32,9 @@ discus-identifier: jromanmartin
 # Google Analytics
 analytics: G-GTQST35P22
 
+# Google AdSense
+ads: ca-pub-1324298368919615
+
 # Build Settings
 markdown: kramdown
 plugins:
