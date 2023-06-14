@@ -24,12 +24,12 @@ tags:
 - tools
 ---
 
-I have been using [GitHub](https://github.com) for a long time and I spent some time on a daily
+I have been using [GitHub](https://github.com) for a long time and I spent time on a daily
 basis reviewing repos in the Open Source space. One of the most important things
-, from my point of view, is to get a good overview of the repository using good documentation,
-but also with good highlight points, such as releases, status of the project, Changelogs, Contribution
+, from my point of view, is to get a good overview of the repository, a good documentation,
+but also good highlights, such as releases, status of the project, Changelogs, Contribution
 Guides, emojis ([why not?](https://blog.jromanmartin.io/2020/09/28/why-i-use-emoji-in-my-git-commits.html)) ...
-so I can get easily and faster a good summary of the repository. This is not easy and
+so I can get faster a good summary of the repository. This is not easy and
 there are many different ways to do it, but I found some of them very easy to add in any repository.
 
 This post covers two of these mechanisms to improve any GitHub Repository:
@@ -47,10 +47,10 @@ How does it look like a repo with badges? Something like this:
 
 Nice 🫶, right?
 
-Badges is a very fast and easy way to summarize a repo with information about topics such
+Badges are an easy way to summarize a repo with information about topics such
 as building, test results, license, pipelines or workflows, versions, ... This information
-provides quality metadata coming from many different resources, so at browsing time you
-can get all this information in a single view. Incredible!
+provides quality metadata coming from many different resources. So meanwhile you are browsing,
+you get all this information in a single view. Incredible!
 
 I found a simple way to integrate almost any badge in my repository ...
 [Shields.io](https://shields.io/). It is a service providing badges in different formats to
@@ -84,7 +84,7 @@ communication among team members and external contributors. This file enables us
 and developers to easily track the evolution of the project, understand the latest
 features and improvements, and quickly identify any potential issues or compatibility concerns.
 
-To get all these benefits require a regular updating of that file, usually after releasing a new
+Getting all these benefits require a regular updating of that file, usually after releasing a new
 version or iteration of our software. But, how to track all the changes between versions? Who
 should do it? When? ... It seems that it could be tedious every time if we have to do it manually
 ... we can forget something to add, or we can forget to update it at all.
@@ -100,7 +100,7 @@ This blog post summarizes this process.
 
 **Step 1️⃣ - Create your Changelog file**
 
-This file, usually called `CHANGELOG.md` with the following content:
+Create a file, usually called `CHANGELOG.md`, with the following content:
 
 ```markdown
 # Changelog
@@ -121,8 +121,8 @@ and well-structured changelogs.
 **Step 2️⃣ - Use a Release workflow to publish new releases**
 
 The [Release Drafter GitHub Action](https://github.com/marketplace/actions/release-drafter) is an
-incredible action to automate a new release of the repository. The action is initially designed
-to draft a new release, but it is also valid to release automatically the version. In my own case,
+incredible GitHub action to automate a new release of the repository. The action is initially designed
+to draft a new release, but it is also valid to release automatically the version. In my case,
 I will automatically release the version as soon as a new tag is pushed.
 
 The following `release-drafter.yml` file inside of the `.github/workflows` folder will publish a new
@@ -164,8 +164,8 @@ is marked as `false`.
 
 **Step 3️⃣ - Format the Release content**
 
-The content of the release will include information coming from the different Pull-Request, Issues,
-and commits. This information can be included automatically into release notes using different
+The content of the release will include information coming from the different pull request, issues,
+and commits. This information can be included automatically into the release notes using different
 patterns. These patterns are described in the `release-drafter.yml` file inside `.github` folder:
 
 The following example is a full example using different categories of information to add into the
@@ -213,7 +213,7 @@ categories:
       - dependencies
     collapse-after: 5
 
-change-template: '- $TITLE (#$NUMBER)'
+change-template: '* $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
   
 exclude-labels:
@@ -264,14 +264,14 @@ jobs:
           file_pattern: CHANGELOG.md
 ```
 
-So, this workflow is starting when a new release is released (`types: [released]`), including
+So, this workflow will start when a new release is released (`types: [released]`), including
 the changes from previous release and committing the change into the `main` branch of our repo.
 
 **Step 5️⃣ - Linking release and update changelog workflows**
 
 There is an issue reported [here](https://github.com/stefanzweifel/changelog-updater-action/discussions/30)
 about how to automatically trigger the update changelog workflow from the release workflow. The workaround
-to fix it requires adding a new secret (i.e: `PERSONAL_ACCESS_TOKEN`) into your repo. 
+to fix it requires adding a new secret (i.e: `PERSONAL_ACCESS_TOKEN`) into your repo:
 
 {:refdef: style="text-align: center;"}
 [![](/images/2023/06/github/gh-secrets.avif "GitHub Repo secrets")]({{site.url}}/images/2023/06/github/gh-secrets.avif)
@@ -279,9 +279,10 @@ to fix it requires adding a new secret (i.e: `PERSONAL_ACCESS_TOKEN`) into your 
 
 **Step 6️⃣ - Release a new version**
 
-Now, it is very simple, just follow your development workflow, using your pull-request, the labels
-of your own repository, and then tag a new version when you are ready to do it. Push it into your
-repo, ...
+Now, it is very simple, just follow your development workflow, using your pull-request life cycle, add the labels
+of your own repository, and then tag a new version when you are ready to do it.
+
+Push it into your repo:
 
 ```shell
 git tag v1.2.1 -m "Version 1.2.1"
@@ -317,7 +318,7 @@ This is ...
 ## References
 
 This blog post is my own summary about this process, but it was based from the content
-and experience of others sites, such as:
+and experience of others, such as:
 
 * [Stop writing your changelogs manually](https://tiagomichaelsousa.dev/articles/stop-writing-your-changelogs-manually)
 * [Release Drafter GitHub Action](https://github.com/marketplace/actions/release-drafter)
