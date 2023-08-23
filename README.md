@@ -4,6 +4,7 @@
 ![Main Lang](https://img.shields.io/github/languages/top/rmarting/rmarting.github.io)
 ![Languages](https://img.shields.io/github/languages/count/rmarting/rmarting.github.io)
 ![Last Commit](https://img.shields.io/github/last-commit/rmarting/rmarting.github.io)
+[![gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev)
 
 This is the repo of [my personal blog](https://blog.jromanmartin.io), enjoy it better on live.
 
