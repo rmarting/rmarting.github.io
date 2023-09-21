@@ -8,6 +8,7 @@ comments:  true
 I like to be author of content, not only in my blog site. Here you could
 access to my published articles in Red Hat Developer:
 
+* [Automate your AMQ streams platform with Ansible - September 20, 2023](https://developers.redhat.com/articles/2023/09/20/automate-your-amq-streams-platform-ansible)
 * [Securely connect Red Hat Integration Service Registry with Red Hat AMQ Streams - April 7, 2021](https://developers.redhat.com/blog/2021/04/07/securely-connect-red-hat-integration-service-registry-with-red-hat-amq-streams/)
 * [Integrating Spring Boot with Red Hat Integration Service Registry - February 15, 2021](https://developers.redhat.com/blog/2021/02/15/integrating-spring-boot-with-red-hat-integration-service-registry/)
 * [Automated migration from JBoss AMQ 6 to Red Hat AMQ 7 on Red Hat OpenShift - May 1, 2019](https://developers.redhat.com/blog/2019/05/01/automated-migration-from-jboss-a-mq-6-to-red-hat-amq-7-on-red-hat-openshift/)
