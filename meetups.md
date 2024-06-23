@@ -8,6 +8,9 @@ comments:  true
 From time to time I give presentations in meetups, conferences or user groups
 from different topics. Here you could access to the published presentations:
 
+* [Opensouthcode 2024 :: Malaga :: Open Practice Library](https://www.opensouthcode.org/conferences/opensouthcode2024/program/proposals/755). The slides are available [here](./slides/OpenSouthCode%202024%20-%20Open%20Practice%20Library.pdf)
+* [Red Hat Open Tour 2024 :: Lisboa :: Demonstração técnica 3: Red Hat Developer Hub ](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1011922abcd). Slides available on-demand.
+* [Red Hat Open Tour 2024 :: Barcelona :: Demo Tecnica Red Hat Developer Hub](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1011238abcd). Slides available on-demand.
 * [Becoming a happier Event-Driven Developer. From Zero to Hero :: Red Hat Summit Connect 2021 (Virtual)](https://www.redhat.com/es/summit/connect/emea/iberia?sc_cid=7013a000002phYfAAI#agenda). Video and slides available on-demand.
 * [Da el salto al siguiente nivel - Arquitecturas Orientadas a Eventos con AMQ Streams y OpenShift Serverless :: Red Hat Webinar (Virtual)](https://events.redhat.com/profile/form/index.cfm?PKformID=0x386233abcd). Video in Spanish available on-demand.
 * [Dê o salto para o próximo nível - Arquiteturas Orientadas a Eventos com AMQ Streams e OpenShift Serverless :: Red Hat Webbinar (Virtual)](https://events.redhat.com/profile/form/index.cfm?PKformID=0x398659abcd) Video in English available on-demand.
@@ -23,6 +26,6 @@ from different topics. Here you could access to the published presentations:
 * [Red Hat Summit 2017 :: Boston :: How we deployed 1000 applications in a single Red Hat JBoss EAP Domain](https://www.redhat.com/files/summit/session-assets/2017/S104758-martin-gil.pdf)
 * [Presentations on SlideShare](https://www2.slideshare.net/jromanmartin/presentations)
 
-I am open to give a talk in your community, meetup, group, ... about any topic such as Developer Experience, Architectures,
+I am open to give talks in your community, meetup, user group, ... about any topic such as Developer Experience, Architectures,
 Design Patters, Integration, Messaging, Software Delivery Life Cycle, Agile, DevOps, ... don't feel shy and contact with me.
 I am looking forward to hearing, collaborating with you.
