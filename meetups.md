@@ -8,7 +8,7 @@ comments:  true
 From time to time I give presentations in meetups, conferences or user groups
 from different topics. Here you could access to the published presentations:
 
-* [Opensouthcode 2024 :: Malaga :: Open Practice Library](https://www.opensouthcode.org/conferences/opensouthcode2024/program/proposals/755). The slides are available [here](./slides/OpenSouthCode%202024%20-%20Open%20Practice%20Library.pdf)
+* [Opensouthcode 2024 :: Malaga :: Open Practice Library](https://www.opensouthcode.org/conferences/opensouthcode2024/program/proposals/755). The slides are available [here](/slides/OpenSouthCode-2024-OpenPracticeLibrary.pdf)
 * [Red Hat Open Tour 2024 :: Lisboa :: Demonstração técnica 3: Red Hat Developer Hub ](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1011922abcd). Slides available on-demand.
 * [Red Hat Open Tour 2024 :: Barcelona :: Demo Tecnica Red Hat Developer Hub](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1011238abcd). Slides available on-demand.
 * [Becoming a happier Event-Driven Developer. From Zero to Hero :: Red Hat Summit Connect 2021 (Virtual)](https://www.redhat.com/es/summit/connect/emea/iberia?sc_cid=7013a000002phYfAAI#agenda). Video and slides available on-demand.
