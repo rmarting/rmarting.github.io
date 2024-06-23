@@ -13,7 +13,7 @@ and migration of applications towards Open Source software.
 
 Currently I am working as Principal Middleware Architect in Red Hat Professional Services helping our customers to
 achieve their goals. Focused in technical designing, providing reference architectures, executing proof of concepts,
-performance enhancements, writing technical documentation, giving workshops, reviewing automation's, processes ... 
+performance enhancements, writing technical documentation, giving workshops, reviewing automation's, processes ...
 
 I like to share my knowledge and experience writing articles or giving presentations in meetups. You could
 review my [articles](/articles) and [presentations](/meetups). Always ready!!
@@ -21,8 +21,11 @@ review my [articles](/articles) and [presentations](/meetups). Always ready!!
 If you are interested in my background, skills or other professional references,
 my [LinkedIn profile](https://www.linkedin.com/in/jromanmartin/) is the right place.
 
+Last but not least, my [GitHub profile](https://github.com/rmarting) is updated with multiple repositories with my demos,
+examples, or just other fancy technical stuff. Enjoy it!!!
+
 Opinions expressed in this blog are my own and do not necessarily reflect that of the company I work for.
 
-Cheers :beers: ! 
+Cheers :beers: !!!
 
 Roman ;)
