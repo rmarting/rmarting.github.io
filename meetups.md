@@ -8,6 +8,7 @@ comments:  true
 From time to time I give presentations in meetups, conferences or user groups
 from different topics. Here you could access to the published presentations:
 
+* [Innovate Together 2025 :: Madrid :: La aventura de potenciar a los equipos de aplicaciones y arquitectura en entornos Cloud Native](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1451924abcd&sc_cid=RHCTE1250000450125#speakers). Slides and video available on-demand.
 * [OpenSouthCode 2024 :: Malaga :: Open Practice Library](https://www.opensouthcode.org/conferences/opensouthcode2024/program/proposals/755). Slides available [here](/slides/OpenSouthCode-2024-OpenPracticeLibrary.pdf).
 * [Red Hat Open Tour 2024 :: Lisboa :: Demonstração técnica 3: Red Hat Developer Hub ](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1011922abcd). Slides available on-demand.
 * [Red Hat Open Tour 2024 :: Barcelona :: Demo Tecnica Red Hat Developer Hub](https://events.redhat.com/profile/form/index.cfm?PKformID=0x1011238abcd). Slides available on-demand.
