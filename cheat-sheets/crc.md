@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "My own CodyReady Containers Cheat Sheet"
+title:      "My own OpenShift Local Cheat Sheet"
 toc:        true
 comments:   true
 permalink:  /cheat-sheets/crc
@@ -11,7 +11,7 @@ tags:
 - tutorial
 ---
 
-[Red Hat CodeReady Container](https://developers.redhat.com/products/codeready-containers/overview) (CRC to abbreviate)
+[Red Hat OpenShift Local](https://developers.redhat.com/products/openshift-local) (CRC)
 brings a minimal, configured OpenShift 4 cluster :cloud: to your local laptop or desktop computer for development and testing purposes.
 
 This cheat sheet includes the most common commands to install, deploy, administrate or
@@ -22,7 +22,7 @@ Enjoy it !!! :cool: :sunglasses:
 ## Download and Install
 
 CRC will need an local virtual machine image (ISO) and a
-valid pull secret to download images from [Red Hat Container Registry](registry.redhat.io).
+valid pull secret to download images from [Red Hat Container Registry](https://registry.redhat.io).
 
 Both things are available [here](https://cloud.redhat.com/openshift/install/crc/installer-provisioned)
 
@@ -41,12 +41,37 @@ anything on startup time:
 ❯ crc start -p /path/to/pull-secret.json
 ```
 
+## Configuration
+
+It is easy set up some configuration to your local instance, for example: memory, cpu, storage...
+
+To check the current configuration:
+
+```bash
+❯ crc config view
+```
+
+To set up a value:
+
+```bash
+❯ crc config set [PROPERTY] [VALUE]
+```
+
+Examples:
+
+- Memory: `crc config set memory 30302` (30GB)
+- CPUs: `crc config set cpus 6`
+- Enable monitoring: `crc config set enable-cluster-monitoring true`
+- kubeadmin password: `crc config set kubeadmin-password new-password`
+
+If the instance is running, you must restart it to apply the new configuration values.
+
 ## Endpoints and Credentials
 
 Your new local OCP 4 cluster is available here:
 
-* API (to be used with ```oc``` command): https://api.crc.testing:6443
-* Web Console: https://console-openshift-console.apps-crc.testing
+* API (to be used with ```oc``` command): [https://api.crc.testing:6443](https://api.crc.testing:6443)
+* Web Console: [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
 
 You could check these endpoints with:
 
@@ -76,7 +101,7 @@ command will promote to *cluster-admin* the *developer* user.
 ❯ oc adm policy add-cluster-role-to-user cluster-admin developer
 ```
 
-:warning: A high power requires higher responsibility. :warning:
+:warning: A high power requires a higher responsibility. :warning:
 
 ## Create new users
 
@@ -110,7 +135,7 @@ Now you have a large list of users to use.
 
 References: 
 
-* [OpenShift - Updating users for an HTPasswd identity provider](https://docs.openshift.com/container-platform/4.5/authentication/identity_providers/configuring-htpasswd-identity-provider.html#identity-provider-htpasswd-update-users_configuring-htpasswd-identity-provider)
+* [OpenShift - Updating users for an HTPasswd identity provider](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/authentication_and_authorization/configuring-identity-providers#configuring-htpasswd-identity-provider)
 
 ## Status
 

@@ -16,7 +16,7 @@ of the following items:
 * :bookmark: [ActiveMQ Artemis Cheat Sheet](/cheat-sheets/activemq-artemis)
 * :bookmark: [Apache Kafka Cheat Sheet](/cheat-sheets/apache-kafka)
 * :bookmark: [Strimzi Cheat Sheet](/cheat-sheets/strimzi)
-* :bookmark: [Code Ready Containers](/cheat-sheets/crc)
+* :bookmark: [OpenShift Local](/cheat-sheets/crc)
 * :bookmark: [Minishift](/cheat-sheets/minishift)
 * :bookmark: [Minikube](/cheat-sheets/minikube)
 * :bookmark: [Red Hat OpenShift Application Services](/cheat-sheets/rhoas)
