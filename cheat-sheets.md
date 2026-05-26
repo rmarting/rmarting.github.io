@@ -19,7 +19,6 @@ of the following items:
 * :bookmark: [OpenShift Local](/cheat-sheets/crc)
 * :bookmark: [Minishift](/cheat-sheets/minishift)
 * :bookmark: [Minikube](/cheat-sheets/minikube)
-* :bookmark: [Red Hat OpenShift Application Services](/cheat-sheets/rhoas)
 
 I hope :pray: you find them useful. Feel free to use or improve them
 following my [contribution guide](/contributing).
