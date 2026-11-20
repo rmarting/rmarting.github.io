@@ -15,34 +15,42 @@ This blog is a customization of the [Flexible-Jekyll Theme](https://github.com/a
 
 ## Building locally
 
-This site is built with [Jekyll](https://jekyllrb.com). If you want to build and run
-locally then you need to follow [the instructions](https://jekyllrb.com/docs/installation/) for
-your local environment.
+This site is built with [Jekyll](https://jekyllrb.com). Local preview uses **Jekyll 4.4** via Bundler.
 
-**NOTE**: Github-Pages uses `Jekyll 3.9`, which isn’t compatible with Ruby 3. Keep in mind for your
-local environment.
+### Prerequisites
 
-**TL;DR**: This is the sort way to install Ruby 2.7.2 in a Fedora 38 workstation to build and run
-locally this site. For Fedora workstations, [this reference](https://developer.fedoraproject.org/tech/languages/ruby/ruby-installation.html)
-using `rbenv`, or [this another](https://tecadmin.net/install-ruby-on-fedora/) using `rvm` can help you.
-For other environments, please contribute with here with your knowledge and experience.
-
-Main steps
+Install Ruby and the build tools needed for native gems:
 
 ```shell
-on 🎩 ❯ rbenv install 2.7.2
-on 🎩 ❯ rbenv global 2.7.2
-on 🎩 ❯ ruby -v
-ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux]
-on 🎩 ❯ gem install jekyll bundler
-on 🎩 ❯ bundle install
+sudo dnf install ruby ruby-devel rubygems rubygem-bundler \
+  gcc gcc-c++ make openssl-devel libyaml-devel \
+  readline-devel zlib-devel libffi-devel
 ```
 
-If you have already installed the gems, use `bundle update` for updating.
+Confirm you are on a supported Ruby for this `Gemfile` (3.4+ / 4.x):
+
+```shell
+ruby -v
+```
+
+Official Jekyll install notes: [jekyllrb.com/docs/installation](https://jekyllrb.com/docs/installation/).
+Fedora Ruby overview: [developer.fedoraproject.org — Ruby](https://developer.fedoraproject.org/tech/languages/ruby/ruby-installation.html).
+
+### Install gems
+
+From the repository root:
+
+```shell
+bundle install
+```
+
+To refresh gems later:
+
+```shell
+bundle update
+```
 
 ## Running locally
-
-To run locally, to test and verify this blog site:
 
 ```shell
 bundle exec jekyll serve
